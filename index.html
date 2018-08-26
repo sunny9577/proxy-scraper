@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js'></script>
+		<script>
+			var app = angular.module('proxyscraper', []);
+			
+			app.controller('proxytableCtrl',function($scope,$http){
+				
+				$scope.data = [];
+				$scope.search = {};
+				$scope.title = "Loading...";
+
+				$http.get('proxies.json').then((response)=>{
+
+					json = response.data;
+					$scope.lastUpdated = json.lastUpdated;
+					json.proxynova.forEach(proxy => {
+						$scope.data.push(proxy);
+					});
+					json.usproxy.forEach(proxy => {
+						$scope.data.push(proxy);
+					});
+					json.hidemyname.forEach(proxy => {
+						$scope.data.push(proxy);
+					});
+
+					$scope.title = "Proxies";
+				})
+			});
+			
+		</script>
+	</head>
+	<body>
+		<style>
+			.loading-text {
+				display: flex;
+				width: 100vw;
+				height: 100vh;
+				justify-content: center;
+				align-items: center;
+			}
+		</style>
+		<div ng-app="proxyscraper">
+			<div class="container" data-ng-controller="proxytableCtrl">
+				<div class="row" style="text-align: center">
+					<hr>
+					<h2 style="color: red">{{title}}</h2>
+					<h4 style="color: grey" ng-show="title==='Proxies'">Last Updated on {{lastUpdated | date}}</h4>
+					<hr>
+				</div>
+				<div class="row" ng-show="title==='Proxies'">
+					<div class="table-responsive">
+						<table class="table table-hover" style="text-align: center">
+							<thead>
+								<tr style="background-color: #697c81;color: white">
+									<td>#</td>
+									<td>IP</td>
+									<td>Port</td>
+									<td>Country</td>
+									<td>Type</td>
+									<td>Anonymity</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td><input type="text" placeholder="Search" class="form-control" ng-model="search.ip"></td>
+									<td><input type="text" placeholder="Search" class="form-control" ng-model="search.port"></td>
+									<td><input type="text" placeholder="Search" class="form-control" ng-model="search.country"></td>
+									<td><input type="text" placeholder="Search" class="form-control" ng-model="search.type"></td>
+									<td><input type="text" placeholder="Search" class="form-control" ng-model="search.anonymity"></td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr ng-repeat="n in data | filter: search">
+									<td>{{$index+1}}</td>
+									<td>{{n.ip}}</td>
+									<td>{{n.port}}</td>
+									<td>{{n.country}}</td>
+									<td>{{n.type}}</td>
+									<td>{{n.anonymity}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
