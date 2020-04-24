@@ -1,4 +1,22 @@
-# Requirements
+### ⭐️ A proxy scraper made using Protractor / Proxy list Updates three times a day 🔥
+
+# Quick Access
+
+JSON
+
+    curl "https://sunny9577.github.io/proxy-scraper/proxies.json" > proxies.json
+
+CSV
+
+    curl "https://sunny9577.github.io/proxy-scraper/proxies.csv" > proxies.csv
+
+Text
+
+
+    curl "https://sunny9577.github.io/proxy-scraper/proxies.txt" > proxies.txt
+
+
+# Setup Requirements
 1 - A Windows, Mac or Linux Computer
 
 2 - Google Chrome installed

@@ -9,6 +9,8 @@ describe('Scrapers', function() {
     var saveToDb = config.SAVE_TO_DB;
     var proxyCount = 0;
     var proxies = new Object();
+    var proxiesCsv = '';
+    var proxiesTxt = '';
     proxies.lastUpdated = new Date();
 
     it('Proxynova Scraper', function() {
@@ -31,8 +33,8 @@ describe('Scrapers', function() {
                 data.forEach(row => {
 
                     row.findElements(by.tagName('td')).then((col) => {
-                        
-                        if(col[1]!= undefined){
+
+                        if (col[1] != undefined) {
                             var proxy = new Object();
                             col[0].getText().then((text) => {
                                     proxy.ip = text
@@ -51,13 +53,15 @@ describe('Scrapers', function() {
                                 }).then(() => {
                                     proxy.type = 'HTTP/HTTPS';
                                 }).then(() => {
+                                    proxiesCsv += `${proxy.ip},${proxy.port},${proxy.country},${proxy.anonymity},${proxy.type}\n`
+                                    proxiesTxt += `${proxy.ip}:${proxy.port}\n`
                                     proxynova.push(proxy);
                                     proxyCount++;
                                     saveIntoDb(proxy);
                                 })
                                 .catch((err) => {
                                     console.log("Exception Occured! in Proxynova" + err.stack);
-                            })
+                                })
                         }
                     });
                 });
@@ -67,8 +71,10 @@ describe('Scrapers', function() {
                     loadPage();
                 else
                     moveToAllProxies('proxynova', proxynova);
-                    console.log(`Got ${proxyCount} proxies from proxynova`);
-                    proxyCount = 0;
+                console.log(`Got ${proxyCount} proxies from proxynova`);
+                proxyCount = 0;
+            }).catch((err) => {
+                console.log("Exception Occured! in Proxynova" + err.stack);
             });
         }
 
@@ -81,7 +87,8 @@ describe('Scrapers', function() {
         browser.driver.get('https://www.us-proxy.org/');
         dataidxid = 3;
         var usProxy = [];
-        function nextPage(){
+
+        function nextPage() {
             browser.driver.findElement(by.id('proxylisttable')).findElements(by.tagName('tr')).then((rows) => {
                 rows.forEach(row => {
                     var proxy = new Object();
@@ -94,7 +101,7 @@ describe('Scrapers', function() {
                                     proxy.port = text;
                                 })
                             }).then(() => {
-                                    proxy.country = 'United States';
+                                proxy.country = 'United States';
                             }).then(() => {
                                 cols[4].getText().then((text) => {
                                     proxy.type = text;
@@ -104,6 +111,8 @@ describe('Scrapers', function() {
                                     proxy.anonymity = 'HTTP/HTTPS';
                                 })
                             }).then(() => {
+                                proxiesCsv += `${proxy.ip},${proxy.port},${proxy.country},${proxy.anonymity},${proxy.type}\n`
+                                proxiesTxt += `${proxy.ip}:${proxy.port}\n`
                                 usProxy.push(proxy);
                                 proxyCount++;
                                 saveIntoDb(proxy);
@@ -113,18 +122,19 @@ describe('Scrapers', function() {
                         }
                     })
                 });
-                
+
             }).then(() => {
-                if(dataidxid<=11){
+                if (dataidxid <= 11) {
                     dataidxid++;
                     browser.driver.findElement(by.xpath('//*[@id="proxylisttable_next"]/a')).click();
                     nextPage();
-                }
-                else{
+                } else {
                     moveToAllProxies('usproxy', usProxy);
                     console.log(`Got ${proxyCount} proxies from US proxy`);
                     proxyCount = 0;
                 }
+            }).catch((err) => {
+                console.log("Exception Occured! in US Proxy" + err);
             })
         }
 
@@ -169,6 +179,8 @@ describe('Scrapers', function() {
                                     proxy.anonymity = text;
                                 })
                             }).then(() => {
+                                proxiesCsv += `${proxy.ip},${proxy.port},${proxy.country},${proxy.anonymity},${proxy.type}\n`
+                                proxiesTxt += `${proxy.ip}:${proxy.port}\n`
                                 hidemyname.push(proxy);
                                 proxyCount++;
                                 saveIntoDb(proxy);
@@ -187,6 +199,8 @@ describe('Scrapers', function() {
                     console.log(`Got ${proxyCount} proxies from hidemyname`);
                     proxyCount = 0;
                 }
+            }).catch((err) => {
+                console.log("Exception Occured! in hidemyname" + err);
             });
         }
         loadPage();
@@ -208,6 +222,12 @@ describe('Scrapers', function() {
 
     it('Save', function() {
         fs.writeFile('proxies.json', JSON.stringify(proxies), function(err, data) {
+            console.log("Successfully Saved proxies");
+        });
+        fs.writeFile('proxies.csv', proxiesCsv, function(err, data) {
+            console.log("Successfully Saved proxies");
+        });
+        fs.writeFile('proxies.txt', proxiesTxt, function(err, data) {
             console.log("Successfully Saved proxies");
         });
     })

@@ -1,6 +1,6 @@
 config = {};
 
-config.SAVE_TO_DB = true;
+config.SAVE_TO_DB = false;
 
 config.DB_HOST = "localhost";
 config.DB_USER = "root";

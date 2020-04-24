@@ -1,19 +1,22 @@
-var mysql = require('mysql');
 var config = require('./config');
 
-//create connection
-var db_config = {
-    host: config.DB_HOST,
-    user: config.DB_USER,
-    password: config.DB_PASS,
-    database: config.DB_NAME,
-    multipleStatements: true,
-    connectionLimit: 50
-};
-
+var connection = {};
 
 if (config.SAVE_TO_DB) {
-    var connection = mysql.createPool(db_config);
+
+    var mysql = require('mysql');
+
+    //create connection
+    var db_config = {
+        host: config.DB_HOST,
+        user: config.DB_USER,
+        password: config.DB_PASS,
+        database: config.DB_NAME,
+        multipleStatements: true,
+        connectionLimit: 50
+    };
+
+    connection = mysql.createPool(db_config);
 
     //- Establish a new connection
     connection.getConnection(function(err) {
@@ -23,6 +26,7 @@ if (config.SAVE_TO_DB) {
             console.log("New connection established with the database. ")
         }
     });
+
 }
 
 module.exports = connection;
