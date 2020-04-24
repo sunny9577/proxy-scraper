@@ -1,6 +1,6 @@
-### ⭐️ A proxy scraper made using Protractor / Proxy list Updates three times a day 🔥
+# ⭐️ A proxy scraper made using Protractor / Proxy list Updates three times a day 🔥
 
-# Quick Access
+## Quick Access
 
 JSON
 
@@ -16,12 +16,12 @@ Text
     curl "https://sunny9577.github.io/proxy-scraper/proxies.txt" > proxies.txt
 
 
-# Setup Requirements
+## Setup Requirements
 1 - A Windows, Mac or Linux Computer
 
 2 - Google Chrome installed
 
-# Setup
+## Setup
 This bot is based on [protractor](https://www.protractortest.org/#/) automated browser testing software.
 ### 1 - Open a terminal an make sure you are in the project directory
 	cd proxy-scraper
@@ -62,7 +62,7 @@ Table Structure
 	6	anonymity	varchar(100)	latin1_swedish_ci		No	None	
 	
 
-# Running the bot
+## Running the bot
 
 ### 1 - Start the Selenium webserver
 Open a terminal an make sure you are in the project directory:
