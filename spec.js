@@ -232,32 +232,43 @@ describe('Scrapers', function() {
 
                 res.on("end", function (chunk) {
                     var body = Buffer.concat(chunks);
-                    let responseInstance = JSON.parse(body.toString());
-                    for (const pzzqzProxy of responseInstance.data) {
-                        let proxyIp = pzzqzProxy.proxy.split(':')[0];
-                        let proxyPort = pzzqzProxy.proxy.split(':')[1];
-                        var proxy = {
-                            ip: proxyIp,
-                            port: proxyPort,
-                            country: getName(pzzqzProxy.country),
-                            type: pzzqzProxy.protocols,
-                            anonymity: pzzqzProxy.anonymity
+                    console.log('pzzqz response: ' + body.toString());
+                    try {
+
+                        let responseInstance = JSON.parse(body.toString());
+                        for (const pzzqzProxy of responseInstance.data) {
+                            let proxyIp = pzzqzProxy.proxy.split(':')[0];
+                            let proxyPort = pzzqzProxy.proxy.split(':')[1];
+                            var proxy = {
+                                ip: proxyIp,
+                                port: proxyPort,
+                                country: getName(pzzqzProxy.country),
+                                type: pzzqzProxy.protocols,
+                                anonymity: pzzqzProxy.anonymity
+                            }
+                            proxiesCsv += `${proxy.ip},${proxy.port},${proxy.country},${proxy.anonymity},${proxy.type}\n`
+                            proxiesTxt += `${proxy.ip}:${proxy.port}\n`
+                            pzzqzProxies.push(proxy);
+                            proxyCount++;
                         }
-                        proxiesCsv += `${proxy.ip},${proxy.port},${proxy.country},${proxy.anonymity},${proxy.type}\n`
-                        proxiesTxt += `${proxy.ip}:${proxy.port}\n`
-                        pzzqzProxies.push(proxy);
-                        proxyCount++;
+                        saveIntoDb(proxy);
+                        moveToAllProxies('pzzqz', pzzqzProxies);
+                        console.log(`Got ${responseInstance.data.length} proxies from pzzqz.com`);
+                        resolve(responseInstance);
+                    } catch (error) {
+                        console.error(error);
+                        reject(error);
                     }
-                    saveIntoDb(proxy);
-                    moveToAllProxies('pzzqz', pzzqzProxies);
-                    console.log(`Got ${responseInstance.data.length} proxies from pzzqz.com`);
-                    resolve(responseInstance);
                 });
 
                 res.on("error", function (error) {
                     console.error(error);
                     reject(error);
                 });
+
+                setTimeout(function () {
+                    reject('Promise timed out after ' + 10000 + ' ms');
+                }, 10000);
             });
             req.end();
         });
