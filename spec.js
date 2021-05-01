@@ -271,7 +271,9 @@ describe('Scrapers', function() {
                 }, 10000);
             });
             req.end();
-        });
+        }).catch(err) {
+            console.log(err);
+        }
 
     });
 
