@@ -220,7 +220,7 @@ describe('Scrapers', function() {
             },
             'maxRedirects': 20
         };
-        
+
         await new Promise((resolve, reject) => {
             var pzzqzProxies = [];
             const req = https.request(options, function (res) {
@@ -271,9 +271,9 @@ describe('Scrapers', function() {
                 }, 10000);
             });
             req.end();
-        }).catch(err) {
+        }).catch((err) => {
             console.log(err);
-        }
+        })
 
     });
 
