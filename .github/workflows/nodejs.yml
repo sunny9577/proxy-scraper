@@ -31,6 +31,7 @@ jobs:
     - run: npm install mysql --save
     - run: webdriver-manager
     - run: webdriver-manager update
+    - run: echo "PZZQZ_KEY=${{secrets.PZZQZ_KEY}}" >> $GITHUB_ENV
     - run: protractor conf.js
     - name: Commit files
       run: |
