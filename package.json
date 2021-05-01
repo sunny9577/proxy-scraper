@@ -4,7 +4,8 @@
   "description": "JSON",
   "main": "conf.js",
   "dependencies": {
-    "country-list": "^2.2.0"
+    "country-list": "^2.2.0",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {},
   "scripts": {
