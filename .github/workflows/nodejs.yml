@@ -26,6 +26,7 @@ jobs:
     - run: echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
     - run: sudo apt-get update 
     - run: sudo apt-get install google-chrome-stable
+    - run: npm i
     - run: npm install -g protractor
     - run: npm install mysql --save
     - run: webdriver-manager

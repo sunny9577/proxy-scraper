@@ -6,7 +6,7 @@ exports.config = {
     multiCapabilities: [{
         browserName: 'chrome',
         chromeOptions: {
-            args: ["--headless"]
+            // args: ["--headless"]
         }
     }]
 };

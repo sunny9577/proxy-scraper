@@ -1,0 +1,24 @@
+{
+  "name": "proxy-scraper",
+  "version": "1.0.0",
+  "description": "JSON",
+  "main": "conf.js",
+  "dependencies": {
+    "country-list": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunny9577/proxy-scraper.git"
+  },
+  "keywords": [],
+  "author": "Sunny Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunny9577/proxy-scraper/issues"
+  },
+  "homepage": "https://github.com/sunny9577/proxy-scraper#readme"
+}
