@@ -33,14 +33,5 @@ jobs:
     - run: webdriver-manager update
     - run: echo "PZZQZ_KEY=${{secrets.PZZQZ_KEY}}" >> $GITHUB_ENV
     - run: protractor conf.js
-    - name: Commit files
-      run: |
-        git config --local user.email ${{ secrets.GIT_EMAIL }}
-        git config --local user.name ${{ secrets.GIT_NAME }}
-        git commit -m "Updated Proxies" -a
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
       env:
         CI: true
