@@ -6,13 +6,11 @@
 187.62.195.145,8080,Brazil - Montes Claros,Transparent,HTTP/HTTPS
 187.115.10.50,20183,Brazil - Recife,Transparent,HTTP/HTTPS
 189.84.114.60,666,Brazil - Baturite,Transparent,HTTP/HTTPS
-143.255.53.29,3128,Brazil - São Paulo,Transparent,HTTP/HTTPS
-189.45.198.99,8081,Brazil - Blumenau,Transparent,HTTP/HTTPS
 190.110.99.102,999,Chile - Quinta de Tilcoco,Transparent,HTTP/HTTPS
 45.170.101.2,999,Chile - Santiago,Transparent,HTTP/HTTPS
 170.79.235.3,999,Chile - Santiago,Transparent,HTTP/HTTPS
-45.166.144.2,999,Chile - Santiago,Transparent,HTTP/HTTPS
 45.161.115.80,999,Chile - Illapel,Transparent,HTTP/HTTPS
+45.166.144.2,999,Chile - Santiago,Transparent,HTTP/HTTPS
 223.100.215.24,8080,China - Liaoyang,Transparent,HTTP/HTTPS
 182.92.241.86,8888,China - Beijing,Anonymous,HTTP/HTTPS
 39.175.75.53,30001,China,Elite,HTTP/HTTPS
@@ -31,13 +29,12 @@
 181.143.224.42,999,Colombia - Santiago de Cali,Transparent,HTTP/HTTPS
 181.143.224.46,999,Colombia - Santiago de Cali,Transparent,HTTP/HTTPS
 45.177.109.197,8080,Colombia - Villagarzon,Transparent,HTTP/HTTPS
-190.145.95.70,80,Colombia - Medellín,Transparent,HTTP/HTTPS
 85.25.95.231,5566,France - Strasbourg,Elite,HTTP/HTTPS
 85.25.95.117,5566,France - Strasbourg,Elite,HTTP/HTTPS
-85.25.196.76,5566,France - Strasbourg,Elite,HTTP/HTTPS
 85.25.242.142,5566,France - Strasbourg,Elite,HTTP/HTTPS
-85.25.117.171,5566,France - Strasbourg,Elite,HTTP/HTTPS
+85.25.196.76,5566,France - Strasbourg,Elite,HTTP/HTTPS
 85.25.119.221,5566,France - Strasbourg,Elite,HTTP/HTTPS
+85.25.117.171,5566,France - Strasbourg,Elite,HTTP/HTTPS
 62.75.229.165,5566,France - Strasbourg,Elite,HTTP/HTTPS
 51.159.3.223,443,France - Paris,Elite,HTTP/HTTPS
 188.138.90.226,5566,France - Strasbourg,Elite,HTTP/HTTPS
@@ -68,8 +65,6 @@
 103.79.74.193,53879,India - Tirupur,Elite,HTTP/HTTPS
 103.199.156.49,40049,India - Haldwani,Elite,HTTP/HTTPS
 103.159.47.5,82,India - Ahmedabad,Transparent,HTTP/HTTPS
-103.120.153.58,84,India - Hisar,Transparent,HTTP/HTTPS
-103.241.182.97,80,India,Transparent,HTTP/HTTPS
 114.7.27.98,8080,Indonesia - Jombang,Elite,HTTP/HTTPS
 103.36.11.14,8181,Indonesia - Pandeglang,Transparent,HTTP/HTTPS
 36.66.124.193,3128,Indonesia - Tangerang,Transparent,HTTP/HTTPS
@@ -95,7 +90,6 @@
 103.53.76.84,8080,Indonesia - Surabaya,Transparent,HTTP/HTTPS
 36.94.2.138,8080,Indonesia - Jakarta,Transparent,HTTP/HTTPS
 36.66.103.211,3128,Indonesia - Bekasi,Transparent,HTTP/HTTPS
-34.101.127.131,8080,Indonesia - Jakarta,Transparent,HTTP/HTTPS
 41.60.239.94,8080,Kenya - Nairobi,Elite,HTTP/HTTPS
 20.105.253.176,8080,Netherlands - Amsterdam,Elite,HTTP/HTTPS
 5.56.133.132,3128,Netherlands,Elite,HTTP/HTTPS
@@ -121,8 +115,6 @@
 46.0.203.186,8080,Russia - Samara,Elite,HTTP/HTTPS
 80.82.55.71,80,Russia - Voronezh,Transparent,HTTP/HTTPS
 94.136.197.126,3128,Russia - Yaroslavl,Elite,HTTP/HTTPS
-46.191.239.183,8080,Russia - Sterlitamak,Transparent,HTTP/HTTPS
-178.208.75.10,3128,Russia,Elite,HTTP/HTTPS
 59.11.52.237,80,South Korea - Hwaseong-si,Elite,HTTP/HTTPS
 121.139.218.165,31409,South Korea - Siheung-si,Elite,HTTP/HTTPS
 1.179.144.41,8080,Thailand - Bangkok,Transparent,HTTP/HTTPS
@@ -144,7 +136,6 @@
 109.200.156.102,8080,Ukraine - Simferopol,Transparent,HTTP/HTTPS
 195.39.233.18,8080,Ukraine - Kharkiv,Transparent,HTTP/HTTPS
 95.67.19.181,3128,Ukraine - Kyiv,Elite,HTTP/HTTPS
-178.54.21.203,8081,Ukraine - Vyshhorod,Elite,HTTP/HTTPS
 96.2.228.18,8080,United States - Pierre,Transparent,HTTP/HTTPS
 47.89.153.213,80,United States,Transparent,HTTP/HTTPS
 76.80.19.107,8080,United States - San Bernardino,Transparent,HTTP/HTTPS
@@ -158,9 +149,7 @@
 24.172.82.94,53281,United States - Greensboro,Elite,HTTP/HTTPS
 157.230.177.3,999,United States - North Bergen,Transparent,HTTP/HTTPS
 40.136.41.6,8080,United States - Lexington,Transparent,HTTP/HTTPS
-107.151.182.247,80,United States,Elite,HTTP/HTTPS
 191.97.16.181,999,Venezuela - Caracas,Transparent,HTTP/HTTPS
-45.173.199.126,3128,Venezuela - Cagua,Transparent,HTTP/HTTPS
 5.160.91.130,3128,Iran,Transparent,HTTP/HTTPS
 46.209.30.12,8080,Iran,Transparent,HTTP/HTTPS
 212.86.73.42,8080,Iran,Transparent,HTTP/HTTPS
@@ -172,12 +161,11 @@
 176.235.139.37,10001,Turkey - Sile,Transparent,HTTP/HTTPS
 95.0.219.234,8080,Turkey - Trabzon,Transparent,HTTP/HTTPS
 95.0.168.54,1976,Turkey - Dalyan,Transparent,HTTP/HTTPS
-78.188.118.233,9090,Turkey - Istanbul,Elite,HTTP/HTTPS
 93.185.123.154,3128,Italy - Caltrano,Transparent,HTTP/HTTPS
 196.219.202.74,8080,Egypt,Transparent,HTTP/HTTPS
 41.33.86.242,8080,Egypt,Transparent,HTTP/HTTPS
-41.65.181.133,8089,Egypt,Transparent,HTTP/HTTPS
 41.65.163.84,1976,Egypt,Transparent,HTTP/HTTPS
+41.65.181.133,8089,Egypt,Transparent,HTTP/HTTPS
 212.95.172.86,53281,Bulgaria,Transparent,HTTP/HTTPS
 185.108.141.74,8080,Bulgaria,Elite,HTTP/HTTPS
 213.222.34.200,53281,Bulgaria,Elite,HTTP/HTTPS
