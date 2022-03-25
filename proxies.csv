@@ -1,10 +1,10 @@
+103.78.254.78,80,Bangladesh - Faridpur,Transparent,HTTP/HTTPS
 103.138.182.3,80,Bangladesh,Transparent,HTTP/HTTPS
 223.29.214.6,80,Bangladesh,Transparent,HTTP/HTTPS
 103.19.130.50,8080,Bangladesh - Dhaka,Transparent,HTTP/HTTPS
 103.148.178.228,80,Bangladesh - Dhaka,Transparent,HTTP/HTTPS
 103.121.38.138,80,Bangladesh - Chittagong,Transparent,HTTP/HTTPS
 103.115.26.254,80,Bangladesh - Chittagong,Transparent,HTTP/HTTPS
-103.78.254.78,80,Bangladesh - Faridpur,Transparent,HTTP/HTTPS
 103.117.192.14,80,Bangladesh - Dhaka,Transparent,HTTP/HTTPS
 103.117.231.42,80,Bangladesh,Transparent,HTTP/HTTPS
 103.127.1.130,80,Bangladesh - Chittagong,Transparent,HTTP/HTTPS
@@ -42,21 +42,18 @@
 138.185.190.46,8080,Brazil - Ipiranga do Piaui,Transparent,HTTP/HTTPS
 177.87.168.101,53281,Brazil - Recife,Elite,HTTP/HTTPS
 138.59.150.198,8080,Brazil - São Paulo,Transparent,HTTP/HTTPS
-189.45.198.99,8081,Brazil - Blumenau,Transparent,HTTP/HTTPS
-191.55.10.27,3128,Brazil - Uberaba,Transparent,HTTP/HTTPS
 170.79.235.3,999,Chile - Santiago,Transparent,HTTP/HTTPS
 45.161.115.141,999,Chile - Salamanca,Transparent,HTTP/HTTPS
 45.160.74.1,999,Chile - Lampa,Transparent,HTTP/HTTPS
 200.111.22.70,999,Chile - Panguipulli,Transparent,HTTP/HTTPS
 128.201.119.251,999,Chile - Molina,Transparent,HTTP/HTTPS
 45.161.115.112,999,Chile - Illapel,Transparent,HTTP/HTTPS
-190.110.99.106,999,Chile - Quinta de Tilcoco,Transparent,HTTP/HTTPS
 190.110.99.105,999,Chile - Quinta de Tilcoco,Transparent,HTTP/HTTPS
+190.110.99.106,999,Chile - Quinta de Tilcoco,Transparent,HTTP/HTTPS
 190.110.99.210,999,Chile - Quinta de Tilcoco,Transparent,HTTP/HTTPS
 45.169.148.21,999,Chile - El Monte,Transparent,HTTP/HTTPS
 190.110.99.107,999,Chile - Quinta de Tilcoco,Transparent,HTTP/HTTPS
 45.169.148.19,999,Chile - El Monte,Transparent,HTTP/HTTPS
-45.166.144.2,999,Chile - Santiago,Transparent,HTTP/HTTPS
 223.96.90.216,8085,China - Zibo,Elite,HTTP/HTTPS
 120.220.220.95,8085,China,Elite,HTTP/HTTPS
 112.6.117.178,8085,China - Weifang,Elite,HTTP/HTTPS
@@ -79,8 +76,8 @@
 39.175.77.22,30001,China,Elite,HTTP/HTTPS
 183.247.211.50,30001,China,Elite,HTTP/HTTPS
 180.97.87.63,80,China,Elite,HTTP/HTTPS
-120.92.91.147,443,China,Elite,HTTP/HTTPS
 123.56.13.137,80,China - Beijing,Elite,HTTP/HTTPS
+120.92.91.147,443,China,Elite,HTTP/HTTPS
 101.231.166.98,443,China - Shanghai,Transparent,HTTP/HTTPS
 39.108.193.201,8888,China - Shenzhen,Elite,HTTP/HTTPS
 140.246.87.238,3128,China,Elite,HTTP/HTTPS
@@ -92,6 +89,8 @@
 61.153.251.150,22222,China - Hangzhou,Transparent,HTTP/HTTPS
 39.106.71.115,7890,China - Beijing,Elite,HTTP/HTTPS
 103.37.141.69,80,China - Beijing,Elite,HTTP/HTTPS
+190.85.34.138,999,Colombia - Medellín,Transparent,HTTP/HTTPS
+138.117.84.134,999,Colombia - Pitalito,Transparent,HTTP/HTTPS
 186.83.28.190,999,Colombia - Bogotá,Transparent,HTTP/HTTPS
 152.231.27.33,60080,Colombia - Santiago de Cali,Transparent,HTTP/HTTPS
 138.117.84.240,999,Colombia - Pitalito,Transparent,HTTP/HTTPS
@@ -102,7 +101,6 @@
 200.32.80.54,999,Colombia - Ubaque,Transparent,HTTP/HTTPS
 181.48.101.245,3128,Colombia - Medellín,Transparent,HTTP/HTTPS
 190.121.128.217,999,Colombia - Bucaramanga,Transparent,HTTP/HTTPS
-138.117.84.134,999,Colombia - Pitalito,Transparent,HTTP/HTTPS
 190.217.20.108,999,Colombia - Choachi,Transparent,HTTP/HTTPS
 179.49.161.58,999,Colombia - Espinal,Transparent,HTTP/HTTPS
 200.25.254.193,54240,Colombia - Puerto Carreño,Elite,HTTP/HTTPS
@@ -116,6 +114,8 @@
 190.2.210.249,999,Colombia - Puerto Asís,Transparent,HTTP/HTTPS
 168.90.14.162,999,Colombia - San Alberto,Transparent,HTTP/HTTPS
 190.90.18.174,999,Colombia - Medellín,Transparent,HTTP/HTTPS
+85.25.199.50,5566,France - Strasbourg,Elite,HTTP/HTTPS
+85.25.132.27,5566,France - Strasbourg,Elite,HTTP/HTTPS
 85.25.117.171,5566,France - Strasbourg,Elite,HTTP/HTTPS
 85.25.246.206,5566,France - Strasbourg,Elite,HTTP/HTTPS
 81.1.26.102,8080,France - Ajaccio,Transparent,HTTP/HTTPS
@@ -123,9 +123,9 @@
 85.25.196.218,5566,France - Strasbourg,Elite,HTTP/HTTPS
 151.80.136.138,3128,France - Roubaix,Elite,HTTP/HTTPS
 85.25.132.9,5566,France - Strasbourg,Elite,HTTP/HTTPS
-85.25.100.47,5566,France - Strasbourg,Elite,HTTP/HTTPS
 85.25.117.68,5566,France - Strasbourg,Elite,HTTP/HTTPS
 85.25.118.155,5566,France - Strasbourg,Elite,HTTP/HTTPS
+85.25.100.47,5566,France - Strasbourg,Elite,HTTP/HTTPS
 85.25.99.106,5566,France - Strasbourg,Elite,HTTP/HTTPS
 85.25.95.117,5566,France - Strasbourg,Elite,HTTP/HTTPS
 85.25.4.27,5566,France - Strasbourg,Elite,HTTP/HTTPS
@@ -192,6 +192,8 @@
 43.224.10.22,6666,India - Khambhat,Elite,HTTP/HTTPS
 202.129.196.242,53879,India - Coimbatore,Elite,HTTP/HTTPS
 103.104.183.28,83,India - Hanumangarh,Transparent,HTTP/HTTPS
+110.232.66.209,808,Indonesia - Denpasar,Transparent,HTTP/HTTPS
+115.124.92.42,8080,Indonesia,Transparent,HTTP/HTTPS
 117.54.114.101,80,Indonesia - Jakarta,Anonymous,HTTP/HTTPS
 36.94.142.163,8000,Indonesia - Bandung,Transparent,HTTP/HTTPS
 139.255.21.74,8080,Indonesia - Jakarta,Transparent,HTTP/HTTPS
@@ -225,8 +227,6 @@
 36.94.58.26,4480,Indonesia - Sidoarjo,Transparent,HTTP/HTTPS
 36.92.22.70,8080,Indonesia - Jakarta,Transparent,HTTP/HTTPS
 36.95.249.157,8080,Indonesia,Transparent,HTTP/HTTPS
-124.158.175.19,8080,Indonesia - Bogor,Transparent,HTTP/HTTPS
-103.233.156.45,8080,Indonesia,Elite,HTTP/HTTPS
 140.227.211.47,8080,Japan,Elite,HTTP/HTTPS
 140.227.25.56,5678,Japan - Isahaya,Elite,HTTP/HTTPS
 140.227.61.156,23456,Japan - Soka,Elite,HTTP/HTTPS
@@ -235,7 +235,6 @@
 197.254.97.252,80,Kenya,Anonymous,HTTP/HTTPS
 197.254.97.248,80,Kenya,Anonymous,HTTP/HTTPS
 80.240.202.218,8080,Kenya,Transparent,HTTP/HTTPS
-154.159.246.66,8080,Kenya - Nairobi,Transparent,HTTP/HTTPS
 20.105.253.176,8080,Netherlands - Amsterdam,Elite,HTTP/HTTPS
 81.4.102.223,8081,Netherlands,Elite,HTTP/HTTPS
 91.202.230.219,8080,Poland - Żagań,Elite,HTTP/HTTPS
@@ -243,6 +242,11 @@
 94.75.76.10,8080,Poland,Transparent,HTTP/HTTPS
 84.205.17.234,8080,Poland - Szczecinek,Transparent,HTTP/HTTPS
 178.212.54.137,8080,Poland - Bledzew,Transparent,HTTP/HTTPS
+94.141.117.1,8080,Russia,Elite,HTTP/HTTPS
+81.24.117.250,18080,Russia - St Petersburg,Elite,HTTP/HTTPS
+128.75.228.173,8080,Russia,Transparent,HTTP/HTTPS
+95.167.29.50,8080,Russia - Chernogolovka,Transparent,HTTP/HTTPS
+85.30.215.48,32946,Russia - Moscow,Elite,HTTP/HTTPS
 89.189.181.161,55855,Russia - Novosibirsk,Elite,HTTP/HTTPS
 46.8.247.3,50967,Russia - Khasavyurt,Elite,HTTP/HTTPS
 77.236.238.33,1256,Russia - Moscow,Transparent,HTTP/HTTPS
@@ -270,25 +274,21 @@
 77.50.104.110,3128,Russia - Moscow,Elite,HTTP/HTTPS
 82.200.107.98,3128,Russia - Tomsk,Elite,HTTP/HTTPS
 82.147.118.164,8080,Russia - Novorossiysk,Transparent,HTTP/HTTPS
-84.252.139.198,3128,Russia,Transparent,HTTP/HTTPS
 80.244.229.102,10000,Russia - Moscow,Transparent,HTTP/HTTPS
+84.252.139.198,3128,Russia,Transparent,HTTP/HTTPS
 46.0.113.160,55443,Russia - Samara,Elite,HTTP/HTTPS
-176.227.188.66,53281,Russia - Ryazan,Transparent,HTTP/HTTPS
-80.82.55.71,80,Russia - Voronezh,Transparent,HTTP/HTTPS
-31.204.180.44,53281,Russia - Veliky Novgorod,Elite,HTTP/HTTPS
-95.66.142.11,8080,Russia - Vladimir,Transparent,HTTP/HTTPS
-188.94.225.45,8080,Russia,Transparent,HTTP/HTTPS
-89.216.52.195,8080,Serbia - Novi Sad,Transparent,HTTP/HTTPS
 92.60.238.12,8080,Serbia - Niš,Transparent,HTTP/HTTPS
+89.216.52.195,8080,Serbia - Novi Sad,Transparent,HTTP/HTTPS
 61.255.239.33,8008,South Korea - Yangcheon-gu,Elite,HTTP/HTTPS
 112.168.200.30,80,South Korea - Icheon-si,Elite,HTTP/HTTPS
 59.21.84.108,80,South Korea - Nam-gu,Elite,HTTP/HTTPS
 146.56.119.252,80,South Korea - Chuncheon,Transparent,HTTP/HTTPS
 49.1.94.104,80,South Korea - Seoul,Elite,HTTP/HTTPS
 175.197.116.163,59394,South Korea - Geumcheon-gu,Elite,HTTP/HTTPS
-143.248.55.62,8118,South Korea - Daejeon,Elite,HTTP/HTTPS
 182.155.249.76,80,Taiwan,Elite,HTTP/HTTPS
 61.216.156.222,60808,Taiwan - New Taipei,Elite,HTTP/HTTPS
+183.88.228.208,8080,Thailand - Bangkok,Transparent,HTTP/HTTPS
+182.52.236.134,8080,Thailand - Bangkok,Elite,HTTP/HTTPS
 159.192.147.186,8080,Thailand,Transparent,HTTP/HTTPS
 122.155.165.191,3128,Thailand,Transparent,HTTP/HTTPS
 113.53.29.218,33885,Thailand - Nakhon Sawan,Elite,HTTP/HTTPS
@@ -304,8 +304,8 @@
 183.88.220.1,8080,Thailand - Phuket,Transparent,HTTP/HTTPS
 122.154.35.190,8080,Thailand - Phuket,Transparent,HTTP/HTTPS
 110.77.199.214,8080,Thailand - Bang Klam,Transparent,HTTP/HTTPS
-183.88.228.208,8080,Thailand - Bangkok,Transparent,HTTP/HTTPS
 180.183.99.40,8080,Thailand - Nonthaburi,Transparent,HTTP/HTTPS
+178.136.2.208,55443,Ukraine - Kalita,Elite,HTTP/HTTPS
 176.98.22.224,8181,Ukraine - Dzenzelivka,Transparent,HTTP/HTTPS
 91.142.172.7,41890,Ukraine - Odessa,Transparent,HTTP/HTTPS
 5.188.136.52,8080,Ukraine - Dnipro,Transparent,HTTP/HTTPS
@@ -323,9 +323,12 @@
 92.207.253.226,38157,United Kingdom - Chelsea,Elite,HTTP/HTTPS
 185.61.152.137,8080,United Kingdom,Elite,HTTP/HTTPS
 35.230.154.184,3128,United Kingdom - London,Transparent,HTTP/HTTPS
+74.114.232.162,8080,United States - Valparaiso,Transparent,HTTP/HTTPS
+50.232.250.157,8080,United States - Saint Paul,Transparent,HTTP/HTTPS
+20.47.108.204,8888,United States - Washington,Elite,HTTP/HTTPS
+173.196.205.170,8080,United States - Santa Ana,Transparent,HTTP/HTTPS
 107.178.9.186,8080,United States - Haslet,Transparent,HTTP/HTTPS
 51.81.80.44,80,United States,Elite,HTTP/HTTPS
-20.47.108.204,8888,United States - Washington,Elite,HTTP/HTTPS
 107.151.182.247,80,United States,Elite,HTTP/HTTPS
 160.3.168.70,8080,United States - Saucier,Transparent,HTTP/HTTPS
 173.82.149.243,8080,United States,Elite,HTTP/HTTPS
@@ -346,14 +349,12 @@
 47.88.92.251,7328,United States - San Mateo,Anonymous,HTTP/HTTPS
 216.169.73.65,34679,United States - Torrey,Elite,HTTP/HTTPS
 154.85.58.149,80,United States - Los Angeles,Transparent,HTTP/HTTPS
-50.232.250.157,8080,United States - Saint Paul,Transparent,HTTP/HTTPS
 47.89.153.213,80,United States,Transparent,HTTP/HTTPS
 64.17.30.238,63141,United States - Avon,Elite,HTTP/HTTPS
 186.233.186.60,8080,United States - Chicago,Transparent,HTTP/HTTPS
 216.66.76.238,8080,United States - Bloomingdale,Transparent,HTTP/HTTPS
 137.184.116.16,3128,United States - Santa Clara,Transparent,HTTP/HTTPS
 129.153.133.203,3128,United States,Transparent,HTTP/HTTPS
-45.59.231.74,8080,United States - Santa Clarita,Transparent,HTTP/HTTPS
 161.22.34.120,8080,Venezuela - Santa Teresa del Tuy,Transparent,HTTP/HTTPS
 81.91.144.190,55443,Iran,Elite,HTTP/HTTPS
 37.191.78.27,8080,Iran,Transparent,HTTP/HTTPS
@@ -381,8 +382,8 @@
 41.65.36.165,1976,Egypt,Transparent,HTTP/HTTPS
 41.65.236.48,1976,Egypt - Giza,Transparent,HTTP/HTTPS
 154.236.184.70,1981,Egypt,Anonymous,HTTP/HTTPS
-41.65.246.3,3129,Egypt,Transparent,HTTP/HTTPS
 41.65.36.166,1981,Egypt,Transparent,HTTP/HTTPS
+41.65.246.3,3129,Egypt,Transparent,HTTP/HTTPS
 154.236.177.100,1981,Egypt,Elite,HTTP/HTTPS
 41.65.174.120,1981,Egypt,Anonymous,HTTP/HTTPS
 41.65.201.54,8080,Egypt,Transparent,HTTP/HTTPS
