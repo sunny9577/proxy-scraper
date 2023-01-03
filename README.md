@@ -1,4 +1,4 @@
-# ⭐️ A proxy scraper made using Protractor | Proxy list Updates three times a day 🔥
+# ⭐️ A proxy scraper made using Protractor | Proxy list - Updates every 3 hours 🔥
 
 ## Quick Access
 
