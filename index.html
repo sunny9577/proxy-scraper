@@ -12,13 +12,13 @@
             $scope.search = {};
             $scope.title = "Loading...";
 
-            $http.get('proxies.json').then((response) => {
+            $http.get('generated/raw.json').then((response) => {
 
                 json = response.data;
                 $scope.lastUpdated = json.lastUpdated;
-                Object.keys(json).map(key => {
-                    if (Array.isArray(json[key])) {
-                        json[key].forEach(proxy => {
+                Object.keys(json.bySource).map(key => {
+                    if (Array.isArray(json.bySource[key])) {
+                        json.bySource[key].forEach(proxy => {
                             $scope.data.push(proxy);
                         });
                     }
@@ -41,7 +41,9 @@
             <div class="row" style="text-align: center">
                 <button class="btn btn-primary" onclick="window.open('/proxy-scraper/proxies.json')">Download as JSON</button>
                 <button class="btn btn-primary" onclick="window.open('/proxy-scraper/proxies.csv')">Download as CSV</button>
-                <button class="btn btn-primary" onclick="window.open('/proxy-scraper/proxies.txt')">Download as Text</button>
+                <button class="btn btn-primary" onclick="window.open('/proxy-scraper/proxies.txt')">Download as TXT</button>
+                <button class="btn btn-primary" onclick="window.open('/proxy-scraper/proxies.yaml')">Download as YAML</button>
+                <button class="btn btn-primary" onclick="window.open('/proxy-scraper/proxies.xml')">Download as XML</button>
                 <hr>
             </div>
             <div class="row" ng-show="title==='Proxies'">
