@@ -60,7 +60,7 @@ describe('Scrapers', function () {
                     });
                 });
             }).then(() => {
-                if (pageIndex < pages.length && false) {
+                if (pageIndex < pages.length) {
                     loadPage();
                 } else {
                     console.log(`Got ${proxyFound} proxies from ${scraperId}`);
@@ -125,7 +125,7 @@ describe('Scrapers', function () {
                 });
 
             }).then(() => {
-                if (pageIndex < pages.length && false) {
+                if (pageIndex < pages.length) {
                     loadPage();
                 } else {
                     console.log(`Got ${proxyFound} proxies from ${scraperId}`);
@@ -244,7 +244,7 @@ describe('Scrapers', function () {
                 });
 
             }).then(() => {
-                if (pageIndex < pages.length && false) {
+                if (pageIndex < pages.length) {
                     loadPage();
                 } else {
                     console.log(`Got ${proxyFound} proxies from ${scraperId}`);
@@ -281,7 +281,7 @@ describe('Scrapers', function () {
                     try {
                         var proxy = new Object();
                         row.findElements(by.tagName('td')).then((cols) => {
-                            if (cols.length > 0) {
+                            if (cols.length > 3) {
                                 cols[0].getText().then((text) => {
                                     proxy.ip = text;
                                 }).then(() => {
@@ -457,7 +457,7 @@ describe('Scrapers', function () {
         if(jsonArray.length > 100) {
             let README = fs.readFileSync('README.md', 'utf-8');
             let dynamicLine = README.substring(README.indexOf('<!-- dynamic-count-start -->') + 29, README.indexOf('<!-- dynamic-count-end -->') - 1);
-            README = README.replace(dynamicLine, '## Current Proxy Count: ' + (Math.floor(jsonArray.length/100)*100) + ' 🚀');
+            README = README.replace(dynamicLine, '## Current Proxy Count: ' + (Math.floor(jsonArray.length/100)*100) + '+ 🚀');
             fs.writeFileSync('README.md', README);
         }
 
