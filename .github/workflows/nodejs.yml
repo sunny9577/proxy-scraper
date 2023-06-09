@@ -14,7 +14,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x]
+        node-version: [18.16.0]
 
     steps:
     - uses: actions/checkout@v2
@@ -31,10 +31,7 @@ jobs:
     - run: sudo apt-get install google-chrome-stable
     - run: npm i
     - run: npm install -g protractor
-    - run: npm install mysql --save
-    - run: webdriver-manager
     - run: webdriver-manager update
-    - run: echo "PZZQZ_KEY=${{secrets.PZZQZ_KEY}}" >> $GITHUB_ENV
     - run: protractor conf.js
     - name: Commit files
       run: |
