@@ -347,19 +347,23 @@ describe('Scrapers', function () {
 
             console.log(scraperId + " Visiting... " + page);
             browser.driver.executeScript('return document.getElementsByTagName("body")[0].innerText').then(d => {
-                let proxyList = JSON.parse(d).data;
-                proxyList.forEach(proxyItem => {
-                    var proxy = new Object();
-                    proxy.country = getName(proxyItem.country);
-                    proxy.ip = proxyItem.ip;
-                    proxy.port = proxyItem.port;
-                    proxy.type = proxyItem.protocols.join(" | ");
-                    proxy.anonymity = proxyItem.anonymityLevel;
-                    proxyFound++;
-                    proxies.bySource[scraperId].push(proxy);
-                    if (proxies.byType[getTypeMapping(proxy.type)] == undefined) proxies.byType[getTypeMapping(proxy.type)] = [];
-                    proxies.byType[getTypeMapping(proxy.type)].push(proxy);
-                });
+                try {
+                    let proxyList = JSON.parse(d).data;
+                    proxyList.forEach(proxyItem => {
+                        var proxy = new Object();
+                        proxy.country = getName(proxyItem.country);
+                        proxy.ip = proxyItem.ip;
+                        proxy.port = proxyItem.port;
+                        proxy.type = proxyItem.protocols.join(" | ");
+                        proxy.anonymity = proxyItem.anonymityLevel;
+                        proxyFound++;
+                        proxies.bySource[scraperId].push(proxy);
+                        if (proxies.byType[getTypeMapping(proxy.type)] == undefined) proxies.byType[getTypeMapping(proxy.type)] = [];
+                        proxies.byType[getTypeMapping(proxy.type)].push(proxy);
+                    });
+                } catch (error) {
+                    console.log('Error occured in ' + scraperId, error);
+                }
             })
         }
 
