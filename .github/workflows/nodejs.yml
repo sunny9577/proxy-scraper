@@ -31,7 +31,7 @@ jobs:
     - run: sudo apt-get install google-chrome-stable
     - run: npm i
     - run: npm install -g protractor
-    - run: webdriver-manager update
+    - run: npm install chromedriver --chromedriver-force-download
     - run: protractor conf.js
     - name: Commit files
       run: |
