@@ -3,6 +3,21 @@
   country: Macao
   type: socks4
   anonymity: High
+- ip: 159.138.252.45
+  port: "8181"
+  country: Thailand
+  type: socks4
+  anonymity: High
+- ip: 147.182.209.238
+  port: "21944"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 54.36.122.141
+  port: "14174"
+  country: France
+  type: socks4
+  anonymity: High
 - ip: 70.35.199.99
   port: "50282"
   country: United States of America
@@ -496,10 +511,5 @@
 - ip: 203.57.51.200
   port: "23373"
   country: Australia
-  type: socks4
-  anonymity: High
-- ip: 142.44.247.105
-  port: "41588"
-  country: Canada
   type: socks4
   anonymity: High
