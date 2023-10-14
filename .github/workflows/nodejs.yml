@@ -25,15 +25,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: CHROME_DRIVER_VERSION=`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE`
     - run: wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
     - run: sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
     - run: sudo apt-get update 
     - run: sudo apt install google-chrome-stable
-    - run: wget -N http://chromedriver.storage.googleapis.com/${CHROME_DRIVER_VERSION}/chromedriver_linux64.zip
-    - run: unzip chromedriver_linux64.zip
-    - run: chmod +x chromedriver
-    - run: sudo mv -f chromedriver /usr/local/bin/
+    - name: Make sure chromedriver version matches the GitHub Runner's Google Chrome version
+      uses: jamesmortensen/chromedriver-matcher-action@v1
     - run: npm i
     - run: npm install -g protractor
     - run: protractor conf.js
