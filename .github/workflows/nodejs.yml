@@ -25,13 +25,17 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - run: CHROME_DRIVER_VERSION=`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE`
     - run: wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-    - run: echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
+    - run: sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
     - run: sudo apt-get update 
-    - run: sudo apt-get install google-chrome-stable=116.0.5845.96
+    - run: sudo apt install google-chrome-stable
+    - run: wget -N http://chromedriver.storage.googleapis.com/${CHROME_DRIVER_VERSION}/chromedriver_linux64.zip
+    - run: unzip chromedriver_linux64.zip
+    - run: chmod +x chromedriver
+    - run: sudo mv -f chromedriver /usr/local/bin/
     - run: npm i
     - run: npm install -g protractor
-    - run: npm install chromedriver --chromedriver_cdnurl=https://npmmirror.com/metadata --chromedriver_cdnbinariesurl=https://npmmirror.com/binaries --chromedriver_version=LATEST_116 --chromedriver-force-download
     - run: protractor conf.js
     - name: Commit files
       run: |
