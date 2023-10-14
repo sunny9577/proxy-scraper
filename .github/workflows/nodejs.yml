@@ -21,17 +21,6 @@ jobs:
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-    - run: sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-    - run: sudo apt-get update 
-    - run: sudo apt install google-chrome-stable
-    - run: npm install chromedriver
-    - name: Make sure chromedriver version matches the GitHub Runner's Google Chrome version
-      uses: jamesmortensen/chromedriver-matcher-action@v1
     - run: npm i
     - run: npm install -g protractor
     - run: protractor conf.js
