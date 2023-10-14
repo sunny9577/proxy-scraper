@@ -28,10 +28,10 @@ jobs:
     - run: wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
     - run: echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
     - run: sudo apt-get update 
-    - run: sudo apt-get install google-chrome-stable
+    - run: sudo apt-get install google-chrome-stable=116.0.5845.96
     - run: npm i
     - run: npm install -g protractor
-    - run: npm install chromedriver --chromedriver-force-download
+    - run: npm install chromedriver --chromedriver_cdnurl=https://npmmirror.com/metadata --chromedriver_cdnbinariesurl=https://npmmirror.com/binaries --chromedriver_version=LATEST_116 --chromedriver-force-download
     - run: protractor conf.js
     - name: Commit files
       run: |
