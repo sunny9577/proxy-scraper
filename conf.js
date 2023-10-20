@@ -9,6 +9,5 @@ exports.config = {
         chromeOptions: {
             args: ["--headless"]
         }
-    }],
-    chromeDriver: './node_modules/chromedriver/lib/chromedriver/chromedriver' //Fix for https://github.com/angular/webdriver-manager/issues/523
+    }]
 };
