@@ -24,8 +24,6 @@ jobs:
     - run: npm i
     - run: npm install -g protractor
     - run: sudo chmod 0755 /usr/local/share/chromedriver-linux64
-    - run: npm install chromedriver --chromedriver-force-download
-    - run: webdriver-manager start --detach
     - run: protractor conf.js
     - name: Commit files
       run: |
