@@ -24,7 +24,7 @@ jobs:
     - run: npm i
     - run: npm install -g protractor
     - run: webdriver-manager update
-    - run: webdriver-manager start
+    - run: webdriver-manager start --detach
     - run: protractor conf.js
     - name: Commit files
       run: |
