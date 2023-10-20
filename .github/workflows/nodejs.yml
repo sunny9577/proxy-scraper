@@ -25,6 +25,7 @@ jobs:
     - run: npm install -g protractor
     - run: webdriver-manager update
     - run: npm install chromedriver --chromedriver-force-download
+    - run: export webdriver.chrome.driver=$CHROMEWEBDRIVER
     - run: webdriver-manager start --detach
     - run: protractor conf.js
     - name: Commit files
