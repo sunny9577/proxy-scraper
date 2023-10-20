@@ -23,7 +23,7 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - run: npm i
     - run: npm install -g protractor
-    - run: java -jar /usr/share/java/selenium-server.jar standalone &
+    - run: webdriver-manager start
     - run: protractor conf.js
     - name: Commit files
       run: |
