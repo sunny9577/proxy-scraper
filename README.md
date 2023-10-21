@@ -63,7 +63,7 @@ HTTP(S)
 
 ## Setup
 This bot is based on [protractor](https://www.protractortest.org/#/) automated browser testing software.
-### 1 - Open a terminal andmake sure you are in the project directory
+### 1 - Open a terminal and make sure you are in the project directory
 	cd proxy-scraper
 
 ### 2 - Make sure you have protractor installed
@@ -105,7 +105,7 @@ Table Structure (Table Name: proxies_tb)
 ## Running the bot
 
 ### 1 - Update the Selenium webserver and install dependencies
-Open a terminal andmake sure you are in the project directory:
+Open a terminal and make sure you are in the project directory:
 	
 	cd proxy-scraper
 	
