@@ -6,8 +6,6 @@ name: Proxy Update Job
 on:
   repository_dispatch:
     types: [update_proxy]
-  schedule:
-    - cron: '0 0-23/3 * * *'
 
 jobs:
   build:
