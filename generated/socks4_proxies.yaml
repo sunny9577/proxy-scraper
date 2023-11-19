@@ -1,51 +1,376 @@
-- ip: 192.99.167.233
-  port: "42577"
-  country: Canada
-  type: socks4
-  anonymity: High
-- ip: 174.64.199.82
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 76.12.99.201
-  port: "36567"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 72.206.181.123
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 110.238.109.146
-  port: "20000"
-  country: Australia
-  type: socks4
-  anonymity: High
-- ip: 195.201.173.249
-  port: "23878"
+- ip: 31.220.42.230
+  port: "9150"
   country: Germany
   type: socks4
   anonymity: High
-- ip: 184.170.245.148
+- ip: 76.12.99.201
+  port: "36567"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 199.116.114.11
   port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 51.15.142.4
+  port: "16379"
+  country: France
+  type: socks4
+  anonymity: High
+- ip: 31.220.42.230
+  port: "9150"
+  country: Germany
+  type: socks4
+  anonymity: High
+- ip: 76.12.99.201
+  port: "36567"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 199.116.114.11
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 51.15.142.4
+  port: "16379"
+  country: France
+  type: socks4
+  anonymity: High
+- ip: 72.195.34.58
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 67.201.33.10
+  port: "25283"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 167.71.250.32
+  port: "53661"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 72.195.34.58
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 67.201.33.10
+  port: "25283"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 167.71.250.32
+  port: "53661"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 192.169.140.98
+  port: "45739"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 167.172.86.46
+  port: "10471"
+  country: Singapore
+  type: socks4
+  anonymity: High
+- ip: 45.61.188.134
+  port: "44499"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 107.181.161.81
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 107.181.168.145
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 194.233.78.142
+  port: "49653"
+  country: Germany
+  type: socks4
+  anonymity: High
+- ip: 96.126.118.190
+  port: "80"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 128.199.196.31
+  port: "51557"
+  country: Singapore
+  type: socks4
+  anonymity: High
+- ip: 103.242.175.119
+  port: "7891"
+  country: China
+  type: socks4
+  anonymity: High
+- ip: 198.8.84.3
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 142.54.239.1
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 159.65.162.186
+  port: "53302"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 199.102.107.145
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 49.0.199.132
+  port: "8089"
+  country: Mongolia
+  type: socks4
+  anonymity: High
+- ip: 69.167.170.149
+  port: "56405"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 162.243.195.11
+  port: "29970"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 184.170.248.5
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 174.75.211.222
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 98.181.137.80
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 167.99.123.158
+  port: "63010"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 24.249.199.4
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 98.181.137.83
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 104.200.135.46
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 72.195.34.60
+  port: "27391"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 174.77.111.197
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 184.178.172.13
+  port: "15311"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 5.161.182.150
+  port: "15854"
+  country: Germany
+  type: socks4
+  anonymity: High
+- ip: 98.162.25.23
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 167.71.250.32
+  port: "39813"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 184.178.172.23
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 72.206.181.97
+  port: "64943"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 95.216.77.85
+  port: "62701"
+  country: Finland
+  type: socks4
+  anonymity: High
+- ip: 192.99.167.233
+  port: "25350"
+  country: Canada
+  type: socks4
+  anonymity: High
+- ip: 51.15.212.207
+  port: "16379"
+  country: France
+  type: socks4
+  anonymity: High
+- ip: 178.18.207.72
+  port: "44435"
+  country: Turkey
+  type: socks4
+  anonymity: High
+- ip: 72.195.114.169
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 72.195.34.35
+  port: "27360"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 98.178.72.21
+  port: "10919"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 51.254.167.41
+  port: "42662"
+  country: France
+  type: socks4
+  anonymity: High
+- ip: 163.172.149.133
+  port: "16379"
+  country: France
+  type: socks4
+  anonymity: High
+- ip: 72.195.34.59
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 184.178.172.28
+  port: "15294"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 68.1.210.189
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 184.178.172.5
+  port: "15303"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 104.248.225.143
+  port: "12271"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 104.219.42.115
+  port: "52354"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 184.178.172.14
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 184.178.172.18
+  port: "15280"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 174.77.111.196
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 51.158.64.130
+  port: "16379"
+  country: France
+  type: socks4
+  anonymity: High
+- ip: 76.12.99.201
+  port: "36362"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 51.79.207.184
+  port: "11847"
+  country: Singapore
+  type: socks4
+  anonymity: High
+- ip: 70.166.167.55
+  port: "57745"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 144.91.95.238
+  port: "58237"
+  country: Germany
+  type: socks4
+  anonymity: High
+- ip: 192.99.167.233
+  port: "8943"
+  country: Canada
+  type: socks4
+  anonymity: High
+- ip: 50.28.106.236
+  port: "59029"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 68.1.210.163
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 98.162.25.7
+  port: "31653"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 98.175.31.195
+  port: "4145"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 165.22.32.217
+  port: "2894"
   country: United States of America
   type: socks4
   anonymity: High
 - ip: 192.99.167.233
   port: "42577"
   country: Canada
-  type: socks4
-  anonymity: High
-- ip: 174.64.199.82
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 76.12.99.201
-  port: "36567"
-  country: United States of America
   type: socks4
   anonymity: High
 - ip: 72.206.181.123
@@ -106,11 +431,6 @@
 - ip: 51.222.241.8
   port: "14162"
   country: France
-  type: socks4
-  anonymity: High
-- ip: 31.220.42.230
-  port: "9150"
-  country: Germany
   type: socks4
   anonymity: High
 - ip: 45.32.248.119
@@ -218,11 +538,6 @@
   country: Germany
   type: socks4
   anonymity: High
-- ip: 72.37.216.68
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
 - ip: 141.94.27.49
   port: "60435"
   country: Germany
@@ -230,11 +545,6 @@
   anonymity: High
 - ip: 148.72.211.168
   port: "1239"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 198.11.175.192
-  port: "9090"
   country: United States of America
   type: socks4
   anonymity: High
@@ -248,24 +558,9 @@
   country: United States of America
   type: socks4
   anonymity: High
-- ip: 159.65.162.186
-  port: "53302"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 142.54.226.214
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
 - ip: 110.238.111.229
   port: "9002"
   country: Australia
-  type: socks4
-  anonymity: High
-- ip: 45.61.188.134
-  port: "44499"
-  country: United States of America
   type: socks4
   anonymity: High
 - ip: 142.54.235.9
@@ -273,24 +568,9 @@
   country: United States of America
   type: socks4
   anonymity: High
-- ip: 128.199.196.31
-  port: "51557"
-  country: Singapore
-  type: socks4
-  anonymity: High
 - ip: 139.224.56.162
   port: "18081"
   country: China
-  type: socks4
-  anonymity: High
-- ip: 107.181.168.145
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 198.8.84.3
-  port: "4145"
-  country: United States of America
   type: socks4
   anonymity: High
 - ip: 51.158.77.220
@@ -303,64 +583,14 @@
   country: United Kingdom of Great Britain and Northern Ireland
   type: socks4
   anonymity: High
-- ip: 67.201.59.70
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 72.195.34.60
-  port: "27391"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 98.175.31.195
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 98.181.137.80
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
 - ip: 163.172.144.132
   port: "16379"
   country: France
   type: socks4
   anonymity: High
-- ip: 69.167.170.149
-  port: "58590"
-  country: United States of America
-  type: socks4
-  anonymity: High
 - ip: 51.210.4.123
   port: "55774"
   country: France
-  type: socks4
-  anonymity: High
-- ip: 184.178.172.26
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 184.178.172.23
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 199.102.106.94
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 206.220.175.2
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 174.77.111.196
-  port: "4145"
-  country: United States of America
   type: socks4
   anonymity: High
 - ip: 51.158.105.203
@@ -373,16 +603,6 @@
   country: France
   type: socks4
   anonymity: High
-- ip: 72.206.181.97
-  port: "64943"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 68.1.210.189
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
 - ip: 106.55.31.30
   port: "7891"
   country: China
@@ -391,16 +611,6 @@
 - ip: 202.86.138.18
   port: "8080"
   country: Macao
-  type: socks4
-  anonymity: High
-- ip: 72.210.252.134
-  port: "46164"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 98.181.137.83
-  port: "4145"
-  country: United States of America
   type: socks4
   anonymity: High
 - ip: 51.158.108.165
@@ -418,33 +628,8 @@
   country: United States of America
   type: socks4
   anonymity: High
-- ip: 104.248.225.143
-  port: "12271"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 98.162.25.29
-  port: "31679"
-  country: United States of America
-  type: socks4
-  anonymity: High
 - ip: 47.254.47.61
   port: "3128"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 104.37.135.145
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 74.119.147.209
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 98.162.25.7
-  port: "31653"
   country: United States of America
   type: socks4
   anonymity: High
@@ -453,73 +638,13 @@
   country: India
   type: socks4
   anonymity: High
-- ip: 72.206.181.105
-  port: "64935"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 72.210.252.137
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 98.170.57.249
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
 - ip: 5.161.182.150
   port: "10256"
   country: Germany
   type: socks4
   anonymity: High
-- ip: 184.178.172.13
-  port: "15311"
-  country: United States of America
-  type: socks4
-  anonymity: High
 - ip: 104.219.42.115
   port: "61710"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 72.195.34.59
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 72.195.34.35
-  port: "27360"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 67.201.33.10
-  port: "25283"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 70.166.167.55
-  port: "57745"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 184.178.172.5
-  port: "15303"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 72.195.114.169
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 131.186.37.99
-  port: "8080"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 167.71.250.32
-  port: "53661"
   country: United States of America
   type: socks4
   anonymity: High
@@ -533,48 +658,13 @@
   country: United States of America
   type: socks4
   anonymity: High
-- ip: 68.1.210.163
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 184.181.217.210
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
 - ip: 104.219.42.115
   port: "61913"
   country: United States of America
   type: socks4
   anonymity: High
-- ip: 51.161.33.206
-  port: "32779"
-  country: Canada
-  type: socks4
-  anonymity: High
-- ip: 184.178.172.18
-  port: "15280"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 194.233.78.142
-  port: "41215"
-  country: Germany
-  type: socks4
-  anonymity: High
 - ip: 208.102.51.6
   port: "58208"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 128.199.221.91
-  port: "35797"
-  country: Singapore
-  type: socks4
-  anonymity: High
-- ip: 142.54.237.34
-  port: "4145"
   country: United States of America
   type: socks4
   anonymity: High
@@ -591,11 +681,6 @@
 - ip: 49.0.199.132
   port: "6666"
   country: Mongolia
-  type: socks4
-  anonymity: High
-- ip: 47.88.29.108
-  port: "202"
-  country: United States of America
   type: socks4
   anonymity: High
 - ip: 104.236.0.129
@@ -628,11 +713,6 @@
   country: Singapore
   type: socks4
   anonymity: High
-- ip: 199.187.210.54
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
 - ip: 134.122.5.111
   port: "31275"
   country: United States of America
@@ -641,16 +721,6 @@
 - ip: 194.233.78.142
   port: "42258"
   country: Germany
-  type: socks4
-  anonymity: High
-- ip: 192.99.167.233
-  port: "8943"
-  country: Canada
-  type: socks4
-  anonymity: High
-- ip: 192.99.167.233
-  port: "37510"
-  country: Canada
   type: socks4
   anonymity: High
 - ip: 212.47.236.229
@@ -676,11 +746,6 @@
 - ip: 54.39.50.68
   port: "18208"
   country: Canada
-  type: socks4
-  anonymity: High
-- ip: 51.15.240.207
-  port: "16379"
-  country: France
   type: socks4
   anonymity: High
 - ip: 5.161.98.204
@@ -716,95 +781,5 @@
 - ip: 163.172.161.35
   port: "16379"
   country: France
-  type: socks4
-  anonymity: High
-- ip: 51.75.121.63
-  port: "45239"
-  country: France
-  type: socks4
-  anonymity: High
-- ip: 51.75.121.63
-  port: "45239"
-  country: France
-  type: socks4
-  anonymity: High
-- ip: 139.180.216.148
-  port: "17035"
-  country: Singapore
-  type: socks4
-  anonymity: High
-- ip: 162.243.237.104
-  port: "37121"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 188.166.230.38
-  port: "63646"
-  country: Singapore
-  type: socks4
-  anonymity: High
-- ip: 188.164.194.52
-  port: "30253"
-  country: Spain
-  type: socks4
-  anonymity: High
-- ip: 47.254.47.61
-  port: "4145"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 95.216.22.119
-  port: "16347"
-  country: Finland
-  type: socks4
-  anonymity: High
-- ip: 192.99.201.39
-  port: "18336"
-  country: Canada
-  type: socks4
-  anonymity: High
-- ip: 91.121.42.56
-  port: "44807"
-  country: France
-  type: socks4
-  anonymity: High
-- ip: 74.208.47.100
-  port: "22905"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 37.187.91.192
-  port: "21981"
-  country: France
-  type: socks4
-  anonymity: High
-- ip: 154.53.42.43
-  port: "33836"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 51.68.164.77
-  port: "64360"
-  country: Germany
-  type: socks4
-  anonymity: High
-- ip: 104.219.42.115
-  port: "64912"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 54.38.176.200
-  port: "42232"
-  country: France
-  type: socks4
-  anonymity: High
-- ip: 51.83.184.241
-  port: "9191"
-  country: France
-  type: socks4
-  anonymity: High
-- ip: 51.161.33.206
-  port: "33670"
-  country: Canada
   type: socks4
   anonymity: High
