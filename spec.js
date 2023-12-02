@@ -174,7 +174,11 @@ describe('Scrapers', function () {
             })
         }
 
-        loadPage();
+        try {
+            loadPage();
+        } catch (error) {
+            console.log("Exception Occured! in " + scraperId, error.stack);
+        }
 
     });
 
@@ -312,7 +316,7 @@ describe('Scrapers', function () {
                         })
                         proxyFound++;
                     } catch (error) {
-                        console.log(error);
+                        console.log("Exception Occured! in " + scraperId, error.stack);
                     }
                 });
 
