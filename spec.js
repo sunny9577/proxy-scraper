@@ -172,7 +172,7 @@ describe('Scrapers', function () {
                         });
                     })
                     console.log(`Got ${proxyFound} proxies from ${scraperId}`);
-                }).catch(() => {
+                }).catch((error) => {
                     console.log("Exception Occured! in " + scraperId, error.stack);
                 })
             }
