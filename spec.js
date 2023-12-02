@@ -141,40 +141,42 @@ describe('Scrapers', function () {
 
     it('openproxy.space Scraper', function () {
 
-        let scraperId = 'openproxy';
-        let pages = ['https://openproxy.space/list/http'];
-        let pageIndex = 0;
-        let proxyFound = 0;
-        proxies.bySource[scraperId] = [];
-
-
-        function loadPage() {
-
-            let page = pages[pageIndex++];
-            browser.driver.get(page);
-
-            console.log(scraperId + " Visiting... " + page);
-            browser.driver.executeScript('return __NUXT__').then(d => {
-                let proxyList = d.data[0].data;
-                proxyList.forEach(country => {
-                    country.items.forEach(proxyItem => {
-                        var proxy = new Object();
-                        proxy.country = getName(country.code);
-                        proxy.ip = proxyItem.split(':')[0];
-                        proxy.port = proxyItem.split(':')[1];
-                        proxy.type = 'unknown';
-                        proxy.anonymity = 'unknown';
-                        proxyFound++;
-                        proxies.bySource[scraperId].push(proxy);
-                        if (proxies.byType[getTypeMapping(proxy.type)] == undefined) proxies.byType[getTypeMapping(proxy.type)] = [];
-                        proxies.byType[getTypeMapping(proxy.type)].push(proxy);
-                    });
-                })
-                console.log(`Got ${proxyFound} proxies from ${scraperId}`);
-            })
-        }
-
         try {
+            let scraperId = 'openproxy';
+            let pages = ['https://openproxy.space/list/http'];
+            let pageIndex = 0;
+            let proxyFound = 0;
+            proxies.bySource[scraperId] = [];
+
+
+            function loadPage() {
+
+                let page = pages[pageIndex++];
+                browser.driver.get(page);
+
+                console.log(scraperId + " Visiting... " + page);
+                browser.driver.executeScript('return __NUXT__').then(d => {
+                    let proxyList = d.data[0].data;
+                    proxyList.forEach(country => {
+                        country.items.forEach(proxyItem => {
+                            var proxy = new Object();
+                            proxy.country = getName(country.code);
+                            proxy.ip = proxyItem.split(':')[0];
+                            proxy.port = proxyItem.split(':')[1];
+                            proxy.type = 'unknown';
+                            proxy.anonymity = 'unknown';
+                            proxyFound++;
+                            proxies.bySource[scraperId].push(proxy);
+                            if (proxies.byType[getTypeMapping(proxy.type)] == undefined) proxies.byType[getTypeMapping(proxy.type)] = [];
+                            proxies.byType[getTypeMapping(proxy.type)].push(proxy);
+                        });
+                    })
+                    console.log(`Got ${proxyFound} proxies from ${scraperId}`);
+                }).catch(() => {
+                    console.log("Exception Occured! in " + scraperId, error.stack);
+                })
+            }
+
             loadPage();
         } catch (error) {
             console.log("Exception Occured! in " + scraperId, error.stack);
