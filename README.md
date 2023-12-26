@@ -126,6 +126,16 @@ Run the bot:
 
 	protractor conf.js
 
+## Additional Tools
+
+- #### socks5_test.py
+	
+	This python script tests the SOCKS5 proxies against https://icanhazip.com and https://eset.com. Contributed by [@techroy23](https://www.github.com/techroy23)
+
+	Steps to run:
+	- pip3 install tabulate pysocks
+	- python3 socks5_test.py
+
 ## Disclaimer
 This repository is intended solely for educational purposes. I neither endorse nor encourage any illegal activities or behavior.
 
