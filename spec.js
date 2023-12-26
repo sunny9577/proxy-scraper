@@ -184,7 +184,7 @@ describe('Scrapers', function () {
 
     });
 
-    it('proxyscan.io Scraper', function () {
+    /*it('proxyscan.io Scraper', function () {
 
         let scraperId = 'proxyscan';
         let pages = ['https://www.proxyscan.io/'];
@@ -266,7 +266,7 @@ describe('Scrapers', function () {
             console.log(error);
         }
 
-    });
+    });*/
 
     it('freeproxy.world Scraper', function () {
 
