@@ -1,11 +1,31 @@
-- ip: 47.88.29.108
-  port: "8081"
+- ip: 8.209.249.96
+  port: "8888"
+  country: Singapore
+  type: socks4
+  anonymity: High
+- ip: 50.63.12.33
+  port: "22450"
   country: United States of America
   type: socks4
   anonymity: High
-- ip: 47.254.47.61
-  port: "8499"
+- ip: 8.209.253.237
+  port: "19"
+  country: Singapore
+  type: socks4
+  anonymity: High
+- ip: 8.209.249.96
+  port: "8888"
+  country: Singapore
+  type: socks4
+  anonymity: High
+- ip: 50.63.12.33
+  port: "22450"
   country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 8.209.253.237
+  port: "19"
+  country: Singapore
   type: socks4
   anonymity: High
 - ip: 47.88.29.108
@@ -801,15 +821,5 @@
 - ip: 162.241.115.85
   port: "58490"
   country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 50.63.12.33
-  port: "22450"
-  country: United States of America
-  type: socks4
-  anonymity: High
-- ip: 173.249.33.122
-  port: "3216"
-  country: Germany
   type: socks4
   anonymity: High
