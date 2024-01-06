@@ -1,5 +1,10 @@
-- ip: 47.88.11.3
-  port: "1099"
+- ip: 172.105.157.94
+  port: "43618"
+  country: United States of America
+  type: socks4
+  anonymity: High
+- ip: 172.105.157.94
+  port: "43618"
   country: United States of America
   type: socks4
   anonymity: High
@@ -321,20 +326,5 @@
 - ip: 37.187.91.192
   port: "11721"
   country: France
-  type: socks4
-  anonymity: High
-- ip: 49.0.252.39
-  port: "9992"
-  country: Mongolia
-  type: socks4
-  anonymity: High
-- ip: 8.213.128.90
-  port: "17"
-  country: Singapore
-  type: socks4
-  anonymity: High
-- ip: 172.105.157.94
-  port: "43618"
-  country: United States of America
   type: socks4
   anonymity: High
