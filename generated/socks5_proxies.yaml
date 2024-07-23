@@ -1,266 +1,76 @@
-- country: Brazil
-  ip: 138.36.171.244
+- country: China
+  ip: 180.107.115.104
+  port: "1080"
+  type: socks5
+  anonymity: elite
+- country: Türkiye
+  ip: 185.220.226.128
+  port: "808"
+  type: socks5
+  anonymity: elite
+- country: Venezuela, Bolivarian Republic of
+  ip: 186.188.43.25
+  port: "5678"
+  type: socks5
+  anonymity: elite
+- country: Luxembourg
+  ip: 198.251.89.198
+  port: "51675"
+  type: socks5
+  anonymity: elite
+- country: United States of America
+  ip: 207.244.246.118
   port: "7497"
   type: socks5
   anonymity: elite
-- country: Netherlands
-  ip: 206.189.15.100
-  port: "54330"
-  type: socks5
-  anonymity: elite
-- country: United Kingdom of Great Britain and Northern Ireland
-  ip: 51.155.10.0
-  port: "8000"
-  type: socks5
-  anonymity: elite
-- country: India
-  ip: 139.59.90.148
-  port: "14066"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 144.202.62.103
-  port: "10119"
-  type: socks5
-  anonymity: elite
-- country: France
-  ip: 212.47.228.149
-  port: "13888"
-  type: socks5
-  anonymity: elite
-- country: France
-  ip: 51.158.77.220
-  port: "16379"
-  type: socks5
-  anonymity: elite
 - country: Singapore
-  ip: 128.199.214.87
-  port: "3128"
-  type: socks5
-  anonymity: elite
-- country: Russian Federation
-  ip: 178.141.249.246
-  port: "8081"
+  ip: 103.136.127.140
+  port: "40000"
   type: socks5
   anonymity: elite
 - country: United States of America
-  ip: 75.119.204.206
-  port: "30795"
-  type: socks5
-  anonymity: elite
-- country: France
-  ip: 51.159.105.70
-  port: "8080"
-  type: socks5
-  anonymity: elite
-- country: Hong Kong
-  ip: 43.154.159.144
-  port: "1080"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 100.2.109.83
-  port: "8080"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 166.62.121.102
-  port: "45886"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 207.55.243.113
-  port: "58613"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 38.127.179.126
-  port: "46656"
-  type: socks5
-  anonymity: elite
-- country: Poland
-  ip: 91.198.137.31
-  port: "3587"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 162.144.83.73
-  port: "60468"
-  type: socks5
-  anonymity: elite
-- country: Moldova, Republic of
-  ip: 89.39.100.173
-  port: "31041"
-  type: socks5
-  anonymity: elite
-- country: Hong Kong
-  ip: 119.13.125.238
-  port: "1080"
-  type: socks5
-  anonymity: elite
-- country: Japan
-  ip: 47.74.18.0
-  port: "38080"
-  type: socks5
-  anonymity: elite
-- country: China
-  ip: 175.155.181.10
-  port: "24388"
-  type: socks5
-  anonymity: elite
-- country: Brazil
-  ip: 200.152.107.98
-  port: "1080"
-  type: socks5
-  anonymity: elite
-- country: Canada
-  ip: 157.185.170.32
-  port: "26589"
-  type: socks5
-  anonymity: elite
-- country: Thailand
-  ip: 61.19.116.28
-  port: "8080"
-  type: socks5
-  anonymity: elite
-- country: Singapore
-  ip: 139.59.99.83
+  ip: 47.49.228.234
   port: "80"
   type: socks5
   anonymity: elite
-- country: India
-  ip: 139.59.58.141
-  port: "7497"
-  type: socks5
-  anonymity: elite
-- country: Russian Federation
-  ip: 46.158.49.49
-  port: "7788"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 5.161.100.145
-  port: "1080"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 157.245.140.55
-  port: "35965"
-  type: socks5
-  anonymity: elite
-- country: Singapore
-  ip: 43.134.237.216
-  port: "443"
-  type: socks5
-  anonymity: elite
-- country: Germany
-  ip: 88.99.138.21
-  port: "5606"
-  type: socks5
-  anonymity: elite
-- country: China
-  ip: 117.24.80.192
-  port: "4134"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 43.153.52.178
-  port: "443"
-  type: socks5
-  anonymity: elite
-- country: Germany
-  ip: 138.201.140.125
-  port: "15976"
-  type: socks5
-  anonymity: elite
-- country: China
-  ip: 202.107.74.24
-  port: "7312"
-  type: socks5
-  anonymity: elite
-- country: Japan
-  ip: 43.153.175.43
-  port: "443"
+- country: Canada
+  ip: 23.16.124.2
+  port: "80"
   type: socks5
   anonymity: elite
 - country: United Kingdom of Great Britain and Northern Ireland
-  ip: 31.22.7.188
-  port: "56981"
-  type: socks5
-  anonymity: elite
-- country: Mexico
-  ip: 187.251.102.41
-  port: "999"
-  type: socks5
-  anonymity: elite
-- country: Russian Federation
-  ip: 46.164.226.252
-  port: "1080"
-  type: socks5
-  anonymity: elite
-- country: Korea, Republic of
-  ip: 8.213.129.20
-  port: "4006"
-  type: socks5
-  anonymity: elite
-- country: Russian Federation
-  ip: 95.78.119.94
-  port: "1080"
-  type: socks5
-  anonymity: elite
-- country: Viet Nam
-  ip: 113.160.188.21
-  port: "1080"
-  type: socks5
-  anonymity: elite
-- country: China
-  ip: 180.127.240.141
-  port: "8989"
+  ip: 185.162.229.127
+  port: "80"
   type: socks5
   anonymity: elite
 - country: Brazil
-  ip: 138.94.92.26
-  port: "7497"
+  ip: 138.255.227.5
+  port: "296"
   type: socks5
   anonymity: elite
-- country: Japan
-  ip: 86.48.13.95
-  port: "3128"
-  type: socks5
-  anonymity: elite
-- country: Germany
-  ip: 45.13.59.103
+- country: Indonesia
+  ip: 27.124.82.1
   port: "1080"
-  type: socks5
-  anonymity: elite
-- country: China
-  ip: 27.156.192.8
-  port: "4134"
   type: socks5
   anonymity: elite
 - country: United States of America
-  ip: 192.230.67.116
-  port: "5601"
+  ip: 72.52.131.65
+  port: "80"
   type: socks5
   anonymity: elite
-- country: China
-  ip: 117.94.221.78
-  port: "1080"
+- country: Germany
+  ip: 194.163.187.30
+  port: "26177"
   type: socks5
   anonymity: elite
-- country: China
-  ip: 150.158.135.201
-  port: "24289"
+- country: United Kingdom of Great Britain and Northern Ireland
+  ip: 95.179.232.45
+  port: "15737"
   type: socks5
   anonymity: elite
-- country: Singapore
-  ip: 8.222.246.145
-  port: "15673"
-  type: socks5
-  anonymity: elite
-- country: Singapore
-  ip: 188.166.231.51
-  port: "7497"
+- country: Germany
+  ip: 207.180.198.90
+  port: "16791"
   type: socks5
   anonymity: elite
 - country: Indonesia
@@ -269,113 +79,148 @@
   type: socks5
   anonymity: elite
 - country: United States of America
-  ip: 38.127.179.236
-  port: "2093"
-  type: socks5
-  anonymity: elite
-- country: Montenegro
-  ip: 213.149.103.133
-  port: "61859"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 38.57.3.41
-  port: "11493"
-  type: socks5
-  anonymity: elite
-- country: Brazil
-  ip: 200.152.107.102
-  port: "1080"
-  type: socks5
-  anonymity: elite
-- country: Iran, Islamic Republic of
-  ip: 185.173.106.113
-  port: "8080"
-  type: socks5
-  anonymity: elite
-- country: Seychelles
-  ip: 197.234.13.61
-  port: "36902"
-  type: socks5
-  anonymity: elite
-- country: China
-  ip: 180.124.158.32
-  port: "8901"
-  type: socks5
-  anonymity: elite
-- country: Netherlands
-  ip: 206.189.9.30
-  port: "42331"
-  type: socks5
-  anonymity: elite
-- country: Brazil
-  ip: 170.81.160.124
-  port: "42832"
-  type: socks5
-  anonymity: elite
-- country: Germany
-  ip: 43.157.53.107
+  ip: 43.153.81.153
   port: "443"
   type: socks5
   anonymity: elite
-- country: Hong Kong
-  ip: 119.29.84.133
-  port: "20806"
-  type: socks5
-  anonymity: elite
-- country: China
-  ip: 222.186.61.175
-  port: "51951"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 173.255.202.28
-  port: "39319"
-  type: socks5
-  anonymity: elite
-- country: Finland
-  ip: 65.21.94.13
-  port: "9443"
-  type: socks5
-  anonymity: elite
 - country: Germany
-  ip: 43.157.52.37
-  port: "443"
-  type: socks5
-  anonymity: elite
-- country: Canada
-  ip: 167.99.180.31
-  port: "56084"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 74.208.222.134
-  port: "46191"
-  type: socks5
-  anonymity: elite
-- country: Finland
-  ip: 95.216.201.74
-  port: "1080"
+  ip: 138.201.140.125
+  port: "15976"
   type: socks5
   anonymity: elite
 - country: Russian Federation
-  ip: 85.143.173.198
-  port: "8444"
-  type: socks5
-  anonymity: elite
-- country: Canada
-  ip: 172.67.191.251
-  port: "80"
+  ip: 89.239.156.129
+  port: "7788"
   type: socks5
   anonymity: elite
 - country: Germany
-  ip: 116.202.177.193
+  ip: 5.9.154.177
+  port: "30000"
+  type: socks5
+  anonymity: elite
+- country: United States of America
+  ip: 43.153.73.157
+  port: "443"
+  type: socks5
+  anonymity: elite
+- country: Iran, Islamic Republic of
+  ip: 95.38.95.40
+  port: "8085"
+  type: socks5
+  anonymity: elite
+- country: India
+  ip: 159.89.163.128
+  port: "7497"
+  type: socks5
+  anonymity: elite
+- country: Russian Federation
+  ip: 185.119.59.63
+  port: "7777"
+  type: socks5
+  anonymity: elite
+- country: United States of America
+  ip: 38.127.179.34
+  port: "11537"
+  type: socks5
+  anonymity: elite
+- country: Switzerland
+  ip: 81.17.20.50
+  port: "43039"
+  type: socks5
+  anonymity: elite
+- country: Thailand
+  ip: 116.58.254.201
+  port: "8080"
+  type: socks5
+  anonymity: elite
+- country: China
+  ip: 175.173.223.104
+  port: "28643"
+  type: socks5
+  anonymity: elite
+- country: Singapore
+  ip: 8.222.246.145
+  port: "15673"
+  type: socks5
+  anonymity: elite
+- country: Indonesia
+  ip: 202.149.67.18
+  port: "7999"
+  type: socks5
+  anonymity: elite
+- country: Indonesia
+  ip: 111.68.31.130
+  port: "3128"
+  type: socks5
+  anonymity: elite
+- country: Sweden
+  ip: 80.78.23.49
   port: "1080"
   type: socks5
   anonymity: elite
+- country: United Kingdom of Great Britain and Northern Ireland
+  ip: 176.58.121.182
+  port: "3128"
+  type: socks5
+  anonymity: elite
+- country: Germany
+  ip: 144.91.78.34
+  port: "20269"
+  type: socks5
+  anonymity: elite
+- country: Viet Nam
+  ip: 116.105.165.83
+  port: "1080"
+  type: socks5
+  anonymity: elite
+- country: United Kingdom of Great Britain and Northern Ireland
+  ip: 138.68.190.172
+  port: "43130"
+  type: socks5
+  anonymity: elite
+- country: Singapore
+  ip: 43.134.225.110
+  port: "443"
+  type: socks5
+  anonymity: elite
 - country: Canada
-  ip: 104.17.62.87
+  ip: 104.24.15.158
   port: "80"
+  type: socks5
+  anonymity: elite
+- country: United States of America
+  ip: 75.119.202.104
+  port: "32524"
+  type: socks5
+  anonymity: elite
+- country: United States of America
+  ip: 47.254.47.61
+  port: "6666"
+  type: socks5
+  anonymity: elite
+- country: Thailand
+  ip: 171.97.40.215
+  port: "8080"
+  type: socks5
+  anonymity: elite
+- country: United States of America
+  ip: 192.3.127.220
+  port: "45776"
+  type: socks5
+  anonymity: elite
+- country: France
+  ip: 212.47.228.149
+  port: "13888"
+  type: socks5
+  anonymity: elite
+- country: Canada
+  ip: 104.18.220.95
+  port: "80"
+  type: socks5
+  anonymity: elite
+- country: Brazil
+  ip: 200.152.100.194
+  port: "1080"
   type: socks5
   anonymity: elite
 - country: United States of America
@@ -383,9 +228,44 @@
   port: "46656"
   type: socks5
   anonymity: elite
+- country: United Kingdom of Great Britain and Northern Ireland
+  ip: 185.162.231.99
+  port: "80"
+  type: socks5
+  anonymity: elite
 - country: United States of America
-  ip: 178.128.151.87
-  port: "40081"
+  ip: 75.119.204.158
+  port: "42863"
+  type: socks5
+  anonymity: elite
+- country: Russian Federation
+  ip: 5.180.19.209
+  port: "1080"
+  type: socks5
+  anonymity: elite
+- country: France
+  ip: 51.178.51.28
+  port: "7497"
+  type: socks5
+  anonymity: elite
+- country: Hong Kong
+  ip: 8.210.54.50
+  port: "10081"
+  type: socks5
+  anonymity: elite
+- country: Russian Federation
+  ip: 46.159.91.244
+  port: "1080"
+  type: socks5
+  anonymity: elite
+- country: Iran, Islamic Republic of
+  ip: 80.210.58.174
+  port: "5678"
+  type: socks5
+  anonymity: elite
+- country: Russian Federation
+  ip: 178.44.165.196
+  port: "7788"
   type: socks5
   anonymity: elite
 - country: France
@@ -394,68 +274,23 @@
   type: socks5
   anonymity: elite
 - country: France
-  ip: 82.196.25.134
+  ip: 51.210.43.253
   port: "7497"
   type: socks5
   anonymity: elite
-- country: United States of America
-  ip: 64.90.54.17
-  port: "63770"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 107.150.50.226
-  port: "56970"
-  type: socks5
-  anonymity: elite
-- country: Indonesia
-  ip: 103.214.112.138
-  port: "32323"
-  type: socks5
-  anonymity: elite
-- country: United States of America
-  ip: 75.119.205.218
-  port: "32238"
-  type: socks5
-  anonymity: elite
-- country: Canada
-  ip: 38.15.155.210
-  port: "3128"
-  type: socks5
-  anonymity: elite
-- country: Viet Nam
-  ip: 42.112.150.150
-  port: "33253"
-  type: socks5
-  anonymity: elite
-- country: United Kingdom of Great Britain and Northern Ireland
-  ip: 54.38.151.84
-  port: "56789"
-  type: socks5
-  anonymity: elite
-- country: Russian Federation
-  ip: 46.164.227.196
-  port: "1080"
-  type: socks5
-  anonymity: elite
-- country: Netherlands
-  ip: 185.162.128.135
-  port: "9057"
-  type: socks5
-  anonymity: elite
-- country: Indonesia
-  ip: 180.254.191.56
+- country: Brazil
+  ip: 200.97.76.186
   port: "8080"
   type: socks5
   anonymity: elite
-- country: Türkiye
-  ip: 185.132.126.37
-  port: "3128"
+- country: Netherlands
+  ip: 45.81.225.94
+  port: "30001"
   type: socks5
   anonymity: elite
-- country: Germany
-  ip: 178.63.0.115
-  port: "30510"
+- country: China
+  ip: 121.205.69.23
+  port: "21212"
   type: socks5
   anonymity: elite
 - country: Canada
@@ -463,33 +298,153 @@
   port: "80"
   type: socks5
   anonymity: elite
-- country: China
-  ip: 115.239.254.149
-  port: "1080"
+- country: Russian Federation
+  ip: 178.44.213.82
+  port: "7788"
   type: socks5
   anonymity: elite
-- country: Hong Kong
-  ip: 47.243.31.48
-  port: "45102"
+- country: Germany
+  ip: 167.235.228.202
+  port: "5208"
   type: socks5
   anonymity: elite
 - country: United States of America
-  ip: 154.64.231.208
-  port: "8081"
+  ip: 178.128.151.87
+  port: "40081"
+  type: socks5
+  anonymity: elite
+- country: China
+  ip: 218.2.112.243
+  port: "80"
+  type: socks5
+  anonymity: elite
+- country: China
+  ip: 59.59.51.74
+  port: "8001"
+  type: socks5
+  anonymity: elite
+- country: United States of America
+  ip: 216.80.120.100
+  port: "3820"
+  type: socks5
+  anonymity: elite
+- country: Korea, Republic of
+  ip: 138.2.116.87
+  port: "65530"
   type: socks5
   anonymity: elite
 - country: Indonesia
-  ip: 182.253.159.153
-  port: "8080"
+  ip: 103.51.46.251
+  port: "13381"
   type: socks5
   anonymity: elite
-- country: Türkiye
-  ip: 178.245.138.187
-  port: "3128"
+- country: United States of America
+  ip: 38.127.179.16
+  port: "55994"
+  type: socks5
+  anonymity: elite
+- country: France
+  ip: 82.196.25.134
+  port: "7497"
+  type: socks5
+  anonymity: elite
+- country: France
+  ip: 54.36.183.52
+  port: "9173"
+  type: socks5
+  anonymity: elite
+- country: United States of America
+  ip: 143.198.69.18
+  port: "12345"
+  type: socks5
+  anonymity: elite
+- country: Hong Kong
+  ip: 47.243.190.17
+  port: "8000"
+  type: socks5
+  anonymity: elite
+- country: Canada
+  ip: 172.67.150.173
+  port: "80"
+  type: socks5
+  anonymity: elite
+- country: United States of America
+  ip: 162.0.220.216
+  port: "57484"
+  type: socks5
+  anonymity: elite
+- country: Singapore
+  ip: 8.219.150.127
+  port: "443"
+  type: socks5
+  anonymity: elite
+- country: Sweden
+  ip: 31.220.15.95
+  port: "1080"
+  type: socks5
+  anonymity: elite
+- country: Viet Nam
+  ip: 115.77.29.101
+  port: "4006"
   type: socks5
   anonymity: elite
 - country: Russian Federation
-  ip: 46.158.207.140
+  ip: 178.44.156.83
   port: "7788"
+  type: socks5
+  anonymity: elite
+- country: Spain
+  ip: 149.202.23.207
+  port: "4995"
+  type: socks5
+  anonymity: elite
+- country: Belize
+  ip: 45.131.7.227
+  port: "80"
+  type: socks5
+  anonymity: elite
+- country: Singapore
+  ip: 27.0.234.206
+  port: "1080"
+  type: socks5
+  anonymity: elite
+- country: United States of America
+  ip: 38.127.179.125
+  port: "46656"
+  type: socks5
+  anonymity: elite
+- country: Palestine, State of
+  ip: 213.6.67.126
+  port: "36127"
+  type: socks5
+  anonymity: elite
+- country: Singapore
+  ip: 209.97.170.248
+  port: "8080"
+  type: socks5
+  anonymity: elite
+- country: Russian Federation
+  ip: 95.182.121.73
+  port: "62134"
+  type: socks5
+  anonymity: elite
+- country: Taiwan, Province of China
+  ip: 165.154.227.154
+  port: "5096"
+  type: socks5
+  anonymity: elite
+- country: United States of America
+  ip: 23.225.129.130
+  port: "39877"
+  type: socks5
+  anonymity: elite
+- country: Latvia
+  ip: 91.135.80.66
+  port: "33427"
+  type: socks5
+  anonymity: elite
+- country: United States of America
+  ip: 162.240.18.167
+  port: "22786"
   type: socks5
   anonymity: elite
