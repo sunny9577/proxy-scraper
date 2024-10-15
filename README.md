@@ -8,7 +8,7 @@
 [![made-with-nodejs](https://img.shields.io/badge/Made%20with-Nodejs-green.svg)](https://www.nodejs.org/)
 
 <!-- dynamic-count-start -->
-## Current Proxy Count: 2800+ 🚀
+## Current Proxy Count: 2600+ 🚀
 <!-- dynamic-count-end -->
 
 
