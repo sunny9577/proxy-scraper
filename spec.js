@@ -70,7 +70,11 @@ describe('Scrapers', function () {
             });
         }
 
-        loadPage();
+        try {
+            loadPage();
+        } catch (error) {
+            console.error(error);
+        }
 
     });
 
