@@ -137,7 +137,7 @@ Run the bot:
 	- python3 socks5_test.py
 
 ## Disclaimer
-This repository is intended solely for educational purposes. I neither endorse nor encourage any illegal activities or behavior.
+This repository is intended solely for educational purposes. I neither endorse nor encourage any illegal activities or behavior. If you are the owner of a proxy included in any of the lists and wish to have it removed, please contact us by creating an issue.
 
 ## License
 

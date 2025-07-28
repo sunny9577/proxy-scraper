@@ -9,7 +9,7 @@ describe('Scrapers', function () {
 
     jasmine.DEFAULT_TIMEOUT_INTERVAL = 600000; //10 min timeout
 
-    let proxies = { lastUpdated: new Date(), bySource: {}, byType: { socks5: [], socks4: [], http: [] } }
+    let proxies = { lastUpdated: new Date(), proxyCount: 0, bySource: {}, byType: { socks5: [], socks4: [], http: [] } }
 
     it('Proxynova Scraper', function () {
 
@@ -64,6 +64,7 @@ describe('Scrapers', function () {
                     loadPage();
                 } else {
                     console.log(`Got ${proxyFound} proxies from ${scraperId}`);
+                    proxies.proxyCount += proxyFound;
                 }
             }).catch((err) => {
                 console.log("Exception Occured! in " + scraperId, err.stack);
@@ -133,6 +134,7 @@ describe('Scrapers', function () {
                     loadPage();
                 } else {
                     console.log(`Got ${proxyFound} proxies from ${scraperId}`);
+                    proxies.proxyCount += proxyFound;
                 }
             }).catch((err) => {
                 console.log("Exception Occured! in " + scraperId, err.stack);
@@ -142,135 +144,6 @@ describe('Scrapers', function () {
         loadPage();
 
     });
-
-    it('openproxy.space Scraper', function () {
-
-        try {
-            let scraperId = 'openproxy';
-            let pages = ['https://openproxy.space/list/http'];
-            let pageIndex = 0;
-            let proxyFound = 0;
-            proxies.bySource[scraperId] = [];
-
-
-            function loadPage() {
-
-                let page = pages[pageIndex++];
-                browser.driver.get(page);
-
-                console.log(scraperId + " Visiting... " + page);
-                browser.driver.executeScript('return __NUXT__').then(d => {
-                    let proxyList = d.data[0].data;
-                    proxyList.forEach(country => {
-                        country.items.forEach(proxyItem => {
-                            var proxy = new Object();
-                            proxy.country = getName(country.code);
-                            proxy.ip = proxyItem.split(':')[0];
-                            proxy.port = proxyItem.split(':')[1];
-                            proxy.type = 'unknown';
-                            proxy.anonymity = 'unknown';
-                            proxyFound++;
-                            proxies.bySource[scraperId].push(proxy);
-                            if (proxies.byType[getTypeMapping(proxy.type)] == undefined) proxies.byType[getTypeMapping(proxy.type)] = [];
-                            proxies.byType[getTypeMapping(proxy.type)].push(proxy);
-                        });
-                    })
-                    console.log(`Got ${proxyFound} proxies from ${scraperId}`);
-                }).catch((error) => {
-                    console.log("Exception Occured! in " + scraperId, error.stack);
-                })
-            }
-
-            loadPage();
-        } catch (error) {
-            console.log("Exception Occured! in " + scraperId, error.stack);
-        }
-
-    });
-
-    /*it('proxyscan.io Scraper', function () {
-
-        let scraperId = 'proxyscan';
-        let pages = ['https://www.proxyscan.io/'];
-        let pageIndex = 0;
-        let proxyFound = 0;
-        proxies.bySource[scraperId] = [];
-
-
-        function loadPage() {
-
-            let page = pages[pageIndex++];
-            browser.driver.get(page);
-
-            console.log(scraperId + " Visiting... " + page);
-            browser.driver.executeScript('window.scrollBy(0,document.body.scrollHeight)')
-            browser.driver.sleep(5000);
-            browser.driver.executeScript('window.scrollBy(0,document.body.scrollHeight)')
-            browser.driver.sleep(5000);
-            browser.driver.executeScript('window.scrollBy(0,document.body.scrollHeight)')
-            browser.driver.sleep(5000);
-
-            browser.driver.findElement(by.id('loadPage')).findElements(by.tagName('tr')).then((rows) => {
-                rows.forEach(row => {
-                    proxyFound++;
-                    var proxy = new Object();
-                    row.findElements(by.tagName('th')).then((cols) => {
-                        if (cols.length > 0) {
-                            cols[0].getText().then((text) => {
-                                proxy.ip = text;
-                            })
-                        }
-                    });
-                    row.findElements(by.tagName('td')).then((cols) => {
-                        if (cols.length > 0) {
-                            cols[1].getText().then((text) => {
-                                //proxy.ip = text;
-                            }).then(() => {
-                                cols[0].getText().then((text) => {
-                                    proxy.port = text;
-                                })
-                            }).then(() => {
-                                cols[1].getText().then((text) => {
-                                    proxy.country = text;
-                                })
-                            }).then(() => {
-                                cols[3].getText().then((text) => {
-                                    proxy.type = text;
-                                })
-                            }).then(() => {
-                                cols[4].getText().then((text) => {
-                                    proxy.anonymity = text;
-                                })
-                            }).then(() => {
-                                proxies.bySource[scraperId].push(proxy);
-                                if (proxies.byType[getTypeMapping(proxy.type)] == undefined) proxies.byType[getTypeMapping(proxy.type)] = [];
-                                proxies.byType[getTypeMapping(proxy.type)].push(proxy);
-                                proxyFound++;
-                            }).catch((err) => {
-                                console.log("Exception Occured! in " + scraperId, err);
-                            })
-                        }
-                    })
-                });
-
-            }).then(() => {
-                if (pageIndex < pages.length) {
-                    loadPage();
-                } else {
-                    console.log(`Got ${proxyFound} proxies from ${scraperId}`);
-                }
-            }).catch((err) => {
-                console.log("Exception Occured! in " + scraperId, err.stack);
-            });
-        }
-
-        try {
-            loadPage();
-        } catch (error) {
-            console.log(error);
-        }
-
-    });*/
 
     it('freeproxy.world Scraper', function () {
 
@@ -335,6 +208,7 @@ describe('Scrapers', function () {
                     loadPage();
                 } else {
                     console.log(`Got ${proxyFound} proxies from ${scraperId}`);
+                    proxies.proxyCount += proxyFound;
                 }
             }).catch((err) => {
                 console.log("Exception Occured! in " + scraperId, err.stack);
@@ -375,6 +249,8 @@ describe('Scrapers', function () {
                         if (proxies.byType[getTypeMapping(proxy.type)] == undefined) proxies.byType[getTypeMapping(proxy.type)] = [];
                         proxies.byType[getTypeMapping(proxy.type)].push(proxy);
                     });
+                    console.log(`Got ${proxyFound} proxies from ${scraperId}`);
+                    proxies.proxyCount += proxyFound;
                 } catch (error) {
                     console.log('Error occured in ' + scraperId, error);
                 }
