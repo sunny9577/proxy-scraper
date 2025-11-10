@@ -72,7 +72,7 @@ describe('Scrapers', function () {
         }
 
         try {
-            //loadPage();
+            loadPage();
         } catch (error) {
             console.error(error);
         }
