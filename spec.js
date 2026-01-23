@@ -11,7 +11,7 @@ describe('Scrapers', function () {
 
     let proxies = { lastUpdated: new Date(), proxyCount: 0, bySource: {}, byType: { socks5: [], socks4: [], http: [] } }
 
-    /*it('Proxynova Scraper', function () {
+    it('Proxynova Scraper', function () {
 
         let scraperId = 'proxynova';
         let pages = ['https://www.proxynova.com/proxy-server-list/country-bd/ ', 'https://www.proxynova.com/proxy-server-list/country-br/ ', 'https://www.proxynova.com/proxy-server-list/country-cl/ ', 'https://www.proxynova.com/proxy-server-list/country-cn/ ', 'https://www.proxynova.com/proxy-server-list/country-co/ ', 'https://www.proxynova.com/proxy-server-list/country-fr/ ', 'https://www.proxynova.com/proxy-server-list/country-de/ ', 'https://www.proxynova.com/proxy-server-list/country-hk/ ', 'https://www.proxynova.com/proxy-server-list/country-in/ ', 'https://www.proxynova.com/proxy-server-list/country-id/ ', 'https://www.proxynova.com/proxy-server-list/country-jp/ ', 'https://www.proxynova.com/proxy-server-list/country-ke/ ', 'https://www.proxynova.com/proxy-server-list/country-nl/ ', 'https://www.proxynova.com/proxy-server-list/country-pl/ ', 'https://www.proxynova.com/proxy-server-list/country-ru/ ', 'https://www.proxynova.com/proxy-server-list/country-rs/ ', 'https://www.proxynova.com/proxy-server-list/country-kr/ ', 'https://www.proxynova.com/proxy-server-list/country-tw/ ', 'https://www.proxynova.com/proxy-server-list/country-th/ ', 'https://www.proxynova.com/proxy-server-list/country-ua/ ', 'https://www.proxynova.com/proxy-server-list/country-gb/ ', 'https://www.proxynova.com/proxy-server-list/country-us/ ', 'https://www.proxynova.com/proxy-server-list/country-ve/ ', 'https://www.proxynova.com/proxy-server-list/country-ir/ ', 'https://www.proxynova.com/proxy-server-list/country-tr/ ', 'https://www.proxynova.com/proxy-server-list/country-na/ ', 'https://www.proxynova.com/proxy-server-list/country-mz/ ', 'https://www.proxynova.com/proxy-server-list/country-it/ ', 'https://www.proxynova.com/proxy-server-list/country-eg/ ', 'https://www.proxynova.com/proxy-server-list/country-bg/'];
@@ -23,7 +23,10 @@ describe('Scrapers', function () {
         function loadPage() {
 
             let page = pages[pageIndex++];
-            browser.driver.get(page);
+            browser.driver.get(page).catch(err => {
+                console.log(scraperId + " Failed to load page, continuing...");
+                return;
+            });
 
             console.log(scraperId + " Visiting... " + page);
             browser.driver.findElement(by.tagName('tbody')).findElements(by.tagName('tr')).then((data) => {
@@ -77,7 +80,7 @@ describe('Scrapers', function () {
             console.error(error);
         }
 
-    });*/
+    });
 
     it('US-proxy.org Scraper', function () {
 
@@ -106,7 +109,7 @@ describe('Scrapers', function () {
                                     proxy.port = text;
                                 })
                             }).then(() => {
-                                cols[4].getText().then((text) => {
+                                cols[3].getText().then((text) => {
                                     proxy.country = text;
                                 })
                             }).then(() => {
