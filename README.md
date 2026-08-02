@@ -1,7 +1,7 @@
 # ⭐️ A proxy scraper made using Protractor | Proxy list - Updates every 3 hours 🔥
 
 [![Every 10 Minutes Update](https://github.com/sunny9577/proxy-scraper/actions/workflows/nodejs.yml/badge.svg?branch=master)](https://github.com/sunny9577/proxy-scraper/actions/workflows/nodejs.yml)
-![GitHub](https://img.shields.io/github/license/sunny9577/proxy-scraper)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/sunny9577/proxy-scraper)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/sunny9577/proxy-scraper/graphs/commit-activity)
 [![Website sunny9577.github.io](https://img.shields.io/website-up-down-green-red/http/github.io.svg)](https://sunny9577.github.io/)
@@ -143,4 +143,4 @@ This repository is intended solely for educational purposes. I neither endorse n
 
 [MIT](LICENSE)
 
-[![Stargazers over time](https://starchart.cc/sunny9577/proxy-scraper.svg)](https://starchart.cc/Naereen/badges)
+[![RepoStars](https://repostars.dev/api/embed?repo=sunny9577%2Fproxy-scraper&theme=light)](https://repostars.dev/?repos=sunny9577%2Fproxy-scraper&theme=light)
