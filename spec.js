@@ -394,8 +394,8 @@ describe('Scrapers', function () {
 
     function saveIntoDb(proxy) {
         if (!config.SAVE_TO_DB) return;
-        var sql = "INSERT into proxies_tb (`proxy`,`port`,`country`,`type`,`anonymity`) VALUES('" + proxy.ip + "'," + proxy.port + ",'" + proxy.country + "','" + proxy.type + "','" + proxy.anonymity + "')";
-        db.query(sql, (err, result) => {
+        var sql = "INSERT into proxies_tb (`proxy`,`port`,`country`,`type`,`anonymity`) VALUES(?,?,?,?,?)";
+        db.query(sql, [proxy.ip, proxy.port, proxy.country, proxy.type, proxy.anonymity], (err, result) => {
             if (err) console.log(err)
         })
     }
