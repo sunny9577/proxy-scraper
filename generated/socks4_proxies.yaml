@@ -1,35 +1,35 @@
-- country: Bosnia and Herzegovina
-  ip: 212.39.114.139
-  port: "5678"
-  type: socks4
-  anonymity: elite
-- country: United States of America
-  ip: 109.205.61.251
-  port: "10808"
-  type: socks4
-  anonymity: elite
-- country: Poland
-  ip: 88.218.206.170
-  port: "5432"
-  type: socks4
-  anonymity: elite
-- country: Ukraine
-  ip: 80.92.227.185
-  port: "5678"
-  type: socks4
-  anonymity: elite
 - country: Viet Nam
-  ip: 171.250.222.254
+  ip: 27.68.169.197
   port: "1080"
   type: socks4
   anonymity: elite
-- country: Indonesia
-  ip: 8.215.25.3
-  port: "2080"
+- country: Viet Nam
+  ip: 27.75.159.96
+  port: "1080"
   type: socks4
   anonymity: elite
 - country: Viet Nam
-  ip: 171.247.242.46
+  ip: 27.77.230.19
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Afghanistan
+  ip: 111.125.154.22
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Russian Federation
+  ip: 37.193.125.68
+  port: "1090"
+  type: socks4
+  anonymity: elite
+- country: United States of America
+  ip: 72.36.32.222
+  port: "9050"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 171.248.214.226
   port: "1080"
   type: socks4
   anonymity: elite
@@ -38,263 +38,123 @@
   port: "5678"
   type: socks4
   anonymity: elite
-- country: Ukraine
-  ip: 95.182.78.6
-  port: "5678"
-  type: socks4
-  anonymity: elite
-- country: Russian Federation
-  ip: 78.85.41.217
-  port: "10808"
-  type: socks4
-  anonymity: elite
-- country: Germany
-  ip: 51.75.68.184
-  port: "9050"
-  type: socks4
-  anonymity: elite
-- country: Lithuania
-  ip: 78.153.131.244
-  port: "8080"
-  type: socks4
-  anonymity: elite
-- country: India
-  ip: 150.129.170.17
-  port: "5678"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 27.68.170.205
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Poland
-  ip: 178.216.202.97
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Korea, Republic of
-  ip: 221.157.45.249
-  port: "80"
-  type: socks4
-  anonymity: elite
-- country: Germany
-  ip: 2.26.81.113
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 42.114.56.61
-  port: "20001"
-  type: socks4
-  anonymity: elite
-- country: United States of America
-  ip: 159.89.51.75
-  port: "10000"
-  type: socks4
-  anonymity: elite
-- country: Hong Kong
-  ip: 45.192.98.172
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Hong Kong
-  ip: 103.230.147.50
-  port: "10808"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 116.100.217.105
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Colombia
-  ip: 190.60.52.194
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 27.75.158.150
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Russian Federation
-  ip: 46.146.205.51
-  port: "10808"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 171.248.208.23
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Indonesia
-  ip: 43.157.200.223
-  port: "40001"
-  type: socks4
-  anonymity: elite
-- country: Russian Federation
-  ip: 193.108.115.81
-  port: "10808"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 171.248.220.251
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Netherlands
-  ip: 185.233.184.73
-  port: "2080"
-  type: socks4
-  anonymity: elite
-- country: Taiwan, Province of China
-  ip: 140.235.38.36
-  port: "50161"
-  type: socks4
-  anonymity: elite
-- country: Indonesia
-  ip: 203.160.61.103
-  port: "4145"
-  type: socks4
-  anonymity: elite
-- country: Kazakhstan
-  ip: 88.204.134.234
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: France
-  ip: 158.220.99.85
-  port: "4545"
-  type: socks4
-  anonymity: elite
-- country: Türkiye
-  ip: 194.62.55.84
-  port: "40001"
-  type: socks4
-  anonymity: elite
-- country: United States of America
-  ip: 104.129.11.28
-  port: "1081"
-  type: socks4
-  anonymity: elite
-- country: Türkiye
-  ip: 45.74.158.148
-  port: "443"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 171.250.220.28
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 125.234.94.150
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 27.75.158.248
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Poland
-  ip: 194.59.186.35
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Netherlands
-  ip: 77.247.178.20
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Canada
-  ip: 51.222.12.245
-  port: "10084"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 42.115.12.60
-  port: "20001"
-  type: socks4
-  anonymity: elite
-- country: Poland
-  ip: 31.76.82.152
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Japan
-  ip: 142.91.105.231
-  port: "1234"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 23.141.116.9
-  port: "9000"
-  type: socks4
-  anonymity: elite
-- country: United States of America
-  ip: 216.167.10.82
-  port: "12345"
-  type: socks4
-  anonymity: elite
-- country: Russian Federation
-  ip: 176.123.169.44
-  port: "1090"
-  type: socks4
-  anonymity: elite
-- country: Türkiye
-  ip: 89.145.186.194
-  port: "4153"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 116.107.188.222
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Indonesia
-  ip: 113.11.183.201
-  port: "4145"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 171.247.246.214
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Latvia
-  ip: 195.13.169.219
-  port: "4153"
-  type: socks4
-  anonymity: elite
-- country: Kazakhstan
-  ip: 217.151.230.186
-  port: "9055"
-  type: socks4
-  anonymity: elite
-- country: Viet Nam
-  ip: 171.248.218.71
-  port: "1080"
-  type: socks4
-  anonymity: elite
-- country: Russian Federation
-  ip: 89.223.67.86
-  port: "8443"
-  type: socks4
-  anonymity: elite
-- country: Netherlands
-  ip: 78.17.53.56
-  port: "8080"
-  type: socks4
-  anonymity: elite
-- country: Argentina
-  ip: 200.63.95.1
+- country: Guatemala
+  ip: 38.190.1.70
   port: "1085"
   type: socks4
   anonymity: elite
-- country: Pakistan
-  ip: 209.150.151.90
+- country: Viet Nam
+  ip: 116.107.186.72
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 27.77.239.61
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 27.75.152.169
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 171.254.218.59
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: United States of America
+  ip: 184.181.217.194
+  port: "4145"
+  type: socks4
+  anonymity: elite
+- country: Russian Federation
+  ip: 134.19.149.103
+  port: "9050"
+  type: socks4
+  anonymity: elite
+- country: United States of America
+  ip: 107.174.47.236
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: United States of America
+  ip: 192.111.137.34
+  port: "18765"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 27.75.146.172
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Argentina
+  ip: 198.12.37.25
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Russian Federation
+  ip: 46.8.104.176
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Germany
+  ip: 168.119.90.70
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Sweden
+  ip: 193.23.200.117
+  port: "1091"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 116.107.176.239
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 171.244.199.151
+  port: "1337"
+  type: socks4
+  anonymity: elite
+- country: India
+  ip: 103.72.101.51
+  port: "1020"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 27.75.158.107
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Argentina
+  ip: 200.63.95.13
+  port: "1085"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 27.65.243.69
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Finland
+  ip: 178.236.244.157
+  port: "5000"
+  type: socks4
+  anonymity: elite
+- country: United States of America
+  ip: 136.0.197.87
+  port: "1081"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 171.250.220.4
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Indonesia
+  ip: 202.169.250.147
   port: "1080"
   type: socks4
   anonymity: elite
@@ -303,38 +163,148 @@
   port: "5678"
   type: socks4
   anonymity: elite
-- country: Netherlands
-  ip: 185.70.186.39
+- country: United States of America
+  ip: 43.153.2.64
   port: "9050"
   type: socks4
   anonymity: elite
-- country: Thailand
-  ip: 125.24.167.131
+- country: Brazil
+  ip: 191.240.153.170
+  port: "53841"
+  type: socks4
+  anonymity: elite
+- country: Poland
+  ip: 46.151.118.108
+  port: "5678"
+  type: socks4
+  anonymity: elite
+- country: United States of America
+  ip: 108.62.161.247
+  port: "10808"
+  type: socks4
+  anonymity: elite
+- country: Netherlands
+  ip: 178.83.75.60
+  port: "9050"
+  type: socks4
+  anonymity: elite
+- country: India
+  ip: 27.121.101.221
+  port: "5678"
+  type: socks4
+  anonymity: elite
+- country: Germany
+  ip: 185.237.95.39
+  port: "50001"
+  type: socks4
+  anonymity: elite
+- country: Ukraine
+  ip: 95.182.78.14
+  port: "5678"
+  type: socks4
+  anonymity: elite
+- country: Ukraine
+  ip: 95.182.78.9
+  port: "5678"
+  type: socks4
+  anonymity: elite
+- country: Colombia
+  ip: 190.60.52.194
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 171.250.222.150
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 42.114.56.13
+  port: "20001"
+  type: socks4
+  anonymity: elite
+- country: Canada
+  ip: 158.69.54.232
+  port: "9050"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 115.74.157.21
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: United States of America
+  ip: 107.167.18.122
+  port: "443"
+  type: socks4
+  anonymity: elite
+- country: Russian Federation
+  ip: 92.63.193.253
+  port: "7777"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 116.111.46.206
   port: "1080"
   type: socks4
   anonymity: elite
 - country: Russian Federation
-  ip: 94.102.89.44
-  port: "1080"
+  ip: 186.246.14.108
+  port: "9151"
   type: socks4
   anonymity: elite
-- country: Nigeria
-  ip: 154.113.201.145
-  port: "5678"
-  type: socks4
-  anonymity: elite
-- country: India
-  ip: 103.59.203.209
+- country: Indonesia
+  ip: 203.160.58.198
   port: "4145"
   type: socks4
   anonymity: elite
-- country: Ukraine
-  ip: 95.182.78.7
-  port: "5678"
+- country: Bangladesh
+  ip: 114.130.89.94
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Russian Federation
+  ip: 79.165.36.169
+  port: "9150"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 115.74.152.146
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Russian Federation
+  ip: 188.143.169.22
+  port: "33333"
   type: socks4
   anonymity: elite
 - country: Singapore
-  ip: 139.59.232.241
-  port: "9200"
+  ip: 151.242.116.106
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 116.106.109.74
+  port: "1080"
+  type: socks4
+  anonymity: elite
+- country: United States of America
+  ip: 159.89.239.204
+  port: "10000"
+  type: socks4
+  anonymity: elite
+- country: Hong Kong
+  ip: 83.229.126.158
+  port: "10801"
+  type: socks4
+  anonymity: elite
+- country: Iran, Islamic Republic of
+  ip: 5.57.32.204
+  port: "10808"
+  type: socks4
+  anonymity: elite
+- country: Viet Nam
+  ip: 125.234.94.150
+  port: "1080"
   type: socks4
   anonymity: elite
