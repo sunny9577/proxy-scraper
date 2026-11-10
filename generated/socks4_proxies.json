@@ -1,26 +1,5 @@
 [
   {
-    "country": "Russian Federation",
-    "ip": "31.192.108.55",
-    "port": "10808",
-    "type": "socks4",
-    "anonymity": "elite"
-  },
-  {
-    "country": "Poland",
-    "ip": "178.216.202.97",
-    "port": "1080",
-    "type": "socks4",
-    "anonymity": "elite"
-  },
-  {
-    "country": "Viet Nam",
-    "ip": "171.248.210.30",
-    "port": "1080",
-    "type": "socks4",
-    "anonymity": "elite"
-  },
-  {
     "country": "United States of America",
     "ip": "72.36.32.222",
     "port": "9050",
@@ -31,6 +10,13 @@
     "country": "United States of America",
     "ip": "107.173.8.4",
     "port": "9000",
+    "type": "socks4",
+    "anonymity": "elite"
+  },
+  {
+    "country": "Netherlands",
+    "ip": "77.247.178.20",
+    "port": "1080",
     "type": "socks4",
     "anonymity": "elite"
   }
